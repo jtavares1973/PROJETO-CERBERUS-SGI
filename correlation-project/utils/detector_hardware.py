@@ -244,24 +244,48 @@ def detectar_e_configurar(verbose: bool = True) -> tuple[HardwareProfile, Config
     
     if verbose:
         print("\n" + "="*70)
-        print("🔍 DETECÇÃO AUTOMÁTICA DE HARDWARE")
+        print("DETECCAO AUTOMATICA DE HARDWARE")
         print("="*70)
-        print(f"\n📊 Hardware Detectado:")
+        print(f"\n[INFO] Hardware Detectado:")
         print(f"   Tipo: {hardware.tipo}")
         print(f"   CPU: {hardware.cpu}")
         print(f"   RAM: {hardware.ram_gb} GB")
         if hardware.gpu:
             print(f"   GPU: {hardware.gpu} ({hardware.vram_gb} GB)")
         else:
-            print(f"   GPU: Não detectada (CPU apenas)")
+            print(f"   GPU: Nao detectada (CPU apenas)")
         
-        print(f"\n⚙️  Configuração Otimizada:")
+        print(f"\n[CONFIG] Configuracao Otimizada:")
         print(f"   Modelo: {config.modelo}")
         print(f"   Temperatura: {config.temperatura}")
         print(f"   Timeout: {config.timeout_segundos}s")
-        print(f"   Histórico: {config.tamanho_historico} chars")
-        print(f"   Batch size: {config.batch_size} casos")
-        print(f"   💬 {config.comentario}")
+        print(f"   Historico: {config.tamanho_historico} chars")
+        print(f"   Batch size: {config.batch_size} caso(s)")
+        print(f"   => {config.comentario}")
+        
+        # Avisos baseados no hardware
+        if hardware.tipo == 'GENERICO':
+            print(f"\n[ATENCAO] Hardware limitado detectado!")
+            print(f"   - Usando modelo LEVE: {config.modelo}")
+            print(f"   - Processamento mais LENTO esperado")
+            print(f"   - Tempo estimado: ~86 minutos para 86 casos")
+            print(f"   - Sistema funcionara, mas pode demorar")
+            
+            if not hardware.gpu:
+                print(f"\n[INFO] GPU nao detectada - Usando CPU")
+                print(f"   - Ollama rodara em CPU (mais lento)")
+                print(f"   - Considere usar modelo ainda menor se travar:")
+                print(f"     ollama pull qwen2:0.5b")
+        
+        elif hardware.tipo == 'TRABALHO':
+            print(f"\n[OK] Hardware adequado - Performance balanceada")
+            print(f"   - Tempo estimado: ~25 minutos para 86 casos")
+        
+        elif hardware.tipo == 'CASA':
+            print(f"\n[EXCELENTE] Hardware de alta performance!")
+            print(f"   - Tempo estimado: ~17 minutos para 86 casos")
+            print(f"   - Processamento paralelo ativado (batch {config.batch_size})")
+        
         print("="*70 + "\n")
     
     return hardware, config
