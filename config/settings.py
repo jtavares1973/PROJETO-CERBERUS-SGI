@@ -5,10 +5,8 @@ Define parâmetros para ETL, matching e processamento de dados criminais.
 
 from pathlib import Path
 from typing import Optional
-try:
-    from pydantic_settings import BaseSettings
-except ImportError:
-    from pydantic import BaseSettings
+# Pydantic v2+ requires pydantic-settings for BaseSettings
+from pydantic_settings import BaseSettings
 
 
 class Settings(BaseSettings):
