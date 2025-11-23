@@ -1,0 +1,74 @@
+# ==========================================
+# .gitignore - Projeto de Validação com IA
+# ==========================================
+
+# Dados sensíveis - NUNCA SUBIR
+*.csv
+*.xlsx
+*.xls
+Dados-*.csv
+output/*.xlsx
+output/*.csv
+
+# Configurações locais
+config_validacao.json
+*.local.json
+
+# Cache Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Ambientes virtuais
+venv/
+env/
+ENV/
+.venv
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter Notebooks (se tiver)
+.ipynb_checkpoints/
+*.ipynb
+
+# Logs
+*.log
+logs/
+*.out
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Arquivos temporários
+*.tmp
+*.temp
+*.bak
+*~
+
+# Arquivos grandes (modelos de ML, etc)
+*.bin
+*.pkl
+*.h5
+*.model
+
+# Arquivos de backup
+backup/
+*.backup
+
+# Excluir archive mas manter estrutura
+archive/*
+!archive/.gitkeep
+
+# Manter estrutura de pastas vazias
+!output/.gitkeep
+!docs/.gitkeep
+!scripts/.gitkeep

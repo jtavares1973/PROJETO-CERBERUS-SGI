@@ -1,0 +1,31 @@
+import pandas as pd
+
+df = pd.read_excel('output/validacao_qwen3_otimizada.xlsx', sheet_name='CONFIRMADAS')
+
+print("=" * 80)
+print("CASOS CONFIRMADOS PELA IA - COM JUSTIFICATIVAS COMPLETAS")
+print("=" * 80)
+
+for i, row in df.iterrows():
+    print(f"\nCASO {i+1}: {row['nome']}")
+    print(f"  Data Nascimento: {row['data_nascimento']}")
+    print(f"  Nome Mãe: {row['nome_mae']}")
+    print(f"  Nome Pai: {row['nome_pai']}")
+    print(f"  RG: {row['rg']}")
+    print(f"  BO Desaparecimento: {row['bo_desaparecimento']}")
+    print(f"  BO Morte: {row['bo_morte']}")
+    print(f"  Intervalo: {row['dias_entre']} dias")
+    print(f"  Tipo Morte: {row['tipo_morte']}")
+    print(f"  Força: {row['forca_correlacao']}")
+    print(f"\n  🤖 VALIDAÇÃO DA IA:")
+    print(f"  Mesma Pessoa: {row['mesma_pessoa']}")
+    print(f"  Correlação Válida: {row['correlacao_valida']}")
+    print(f"  Confiança: {row['confianca']}%")
+    print(f"\n  ✅ DADOS CONFEREM:")
+    print(f"     Data Nasc: {row['data_nasc_ok']}")
+    print(f"     Nome Mãe: {row['mae_ok']}")
+    print(f"     Nome Pai: {row['pai_ok']}")
+    print(f"     RG: {row['rg_ok']}")
+    print(f"\n  📝 JUSTIFICATIVA:")
+    print(f"     {row['justificativa']}")
+    print("\n" + "-" * 80)

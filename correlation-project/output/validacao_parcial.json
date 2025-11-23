@@ -1,0 +1,964 @@
+[
+  {
+    "chave_pessoa": "nilderson_da_silva|19/04/1985",
+    "nome": "NILDERSON DA SILVA",
+    "data_nascimento": "19/04/1985",
+    "nome_mae": "MARIA APARECIDA FERREIRA",
+    "nome_pai": "VANDER DA SILVA",
+    "numero_rg": "2250408",
+    "tem_transtorno_psiquiatrico": false,
+    "tipo_transtorno": NaN,
+    "bo_desaparecimento": "2025_32DP_6127",
+    "bo_morte": "2025_32DP_6172",
+    "dias_entre": 0,
+    "tipo_morte": "CADAVER",
+    "forca_correlacao": "FORTE",
+    "validacao": {
+      "mesma_pessoa": true,
+      "dados_conferem": {
+        "data_nasc": true,
+        "mae": true,
+        "pai": true,
+        "rg": true
+      },
+      "correlacao_valida": true,
+      "confianca": 95,
+      "evidencias": [
+        "RG e dados familiares coincidem",
+        "mesma esposa como noticiante em ambos os registros",
+        "relação temporal direta entre desaparecimento e morte"
+      ],
+      "justificativa": "Todos os dados identitários coincidem, mesma fonte de informação (esposa) e relação temporal imediata entre os eventos.",
+      "resposta_completa": "{\n  \"mesma_pessoa\": true,\n  \"dados_conferem\": {\"data_nasc\": true, \"mae\": true, \"pai\": true, \"rg\": true},\n  \"correlacao_valida\": true,\n  \"confianca\": 95,\n  \"evidencias\": [\"RG e dados familiares coincidem\", \"mesma esposa como noticiante em ambos os registros\", \"relação temporal direta entre desaparecimento e morte\"],\n  \"justificativa\": \"Todos os dados identitários coincidem, mesma fonte de informação (esposa) e relação temporal imediata entre os eventos.\"\n}"
+    },
+    "timestamp": "2025-11-23T10:38:54.627260"
+  },
+  {
+    "chave_pessoa": "nilderson_da_silva|19/04/1985",
+    "nome": "NILDERSON DA SILVA",
+    "data_nascimento": "19/04/1985",
+    "nome_mae": "MARIA APARECIDA FERREIRA",
+    "nome_pai": "VANDER DA SILVA",
+    "numero_rg": "2250408",
+    "tem_transtorno_psiquiatrico": false,
+    "tipo_transtorno": NaN,
+    "bo_desaparecimento": "2025_32DP_6127",
+    "bo_morte": "2025_32DP_6172",
+    "dias_entre": 0,
+    "tipo_morte": "CADAVER",
+    "forca_correlacao": "FORTE",
+    "validacao": {
+      "mesma_pessoa": true,
+      "dados_conferem": {
+        "data_nasc": true,
+        "mae": true,
+        "pai": true,
+        "rg": true
+      },
+      "correlacao_valida": true,
+      "confianca": 95,
+      "evidencias": [
+        "Notificação da mesma esposa em ambos os registros",
+        "Menciona o BO de desaparecimento anterior no histórico da morte",
+        "RG e dados familiares idênticos"
+      ],
+      "justificativa": "Dados de identificação coincidentes, mesma vítima notificada pela esposa, e conexão explícita entre os eventos no histórico da ocorrência de morte.",
+      "resposta_completa": "{\n  \"mesma_pessoa\": true,\n  \"dados_conferem\": {\"data_nasc\": true, \"mae\": true, \"pai\": true, \"rg\": true},\n  \"correlacao_valida\": true,\n  \"confianca\": 95,\n  \"evidencias\": [\"Notificação da mesma esposa em ambos os registros\", \"Menciona o BO de desaparecimento anterior no histórico da morte\", \"RG e dados familiares idênticos\"],\n  \"justificativa\": \"Dados de identificação coincidentes, mesma vítima notificada pela esposa, e conexão explícita entre os eventos no histórico da ocorrência de morte.\"\n}"
+    },
+    "timestamp": "2025-11-23T10:39:01.181492"
+  },
+  {
+    "chave_pessoa": "nilderson_da_silva|19/04/1985",
+    "nome": "NILDERSON DA SILVA",
+    "data_nascimento": "19/04/1985",
+    "nome_mae": "MARIA APARECIDA FERREIRA",
+    "nome_pai": "VANDER DA SILVA",
+    "numero_rg": "2250408",
+    "tem_transtorno_psiquiatrico": false,
+    "tipo_transtorno": NaN,
+    "bo_desaparecimento": "2025_32DP_6127",
+    "bo_morte": "2025_32DP_6172",
+    "dias_entre": 0,
+    "tipo_morte": "CADAVER",
+    "forca_correlacao": "FORTE",
+    "validacao": {
+      "mesma_pessoa": true,
+      "dados_conferem": {
+        "data_nasc": true,
+        "mae": true,
+        "pai": true,
+        "rg": true
+      },
+      "correlacao_valida": true,
+      "confianca": 95,
+      "evidencias": [
+        "RG e dados familiares coincidem",
+        "mesma esposa como notificante em ambos os registros",
+        "intervalo de 0 dias entre ocorrências",
+        "referência explícita ao BO de desaparecimento no histórico da morte"
+      ],
+      "justificativa": "Todos os dados identitários coincidem, a mesma pessoa (esposa) relata ambos os eventos, e o intervalo de 0 dias entre o desaparecimento e a morte indica continuidade temporal direta.",
+      "resposta_completa": "{\n  \"mesma_pessoa\": true,\n  \"dados_conferem\": {\"data_nasc\": true, \"mae\": true, \"pai\": true, \"rg\": true},\n  \"correlacao_valida\": true,\n  \"confianca\": 95,\n  \"evidencias\": [\"RG e dados familiares coincidem\", \"mesma esposa como notificante em ambos os registros\", \"intervalo de 0 dias entre ocorrências\", \"referência explícita ao BO de desaparecimento no histórico da morte\"],\n  \"justificativa\": \"Todos os dados identitários coincidem, a mesma pessoa (esposa) relata ambos os eventos, e o intervalo de 0 dias entre o desaparecimento e a morte indica continuidade temporal direta.\"\n}"
+    },
+    "timestamp": "2025-11-23T10:39:08.919148"
+  },
+  {
+    "chave_pessoa": "nilderson_da_silva|19/04/1985",
+    "nome": "NILDERSON DA SILVA",
+    "data_nascimento": "19/04/1985",
+    "nome_mae": "MARIA APARECIDA FERREIRA",
+    "nome_pai": "VANDER DA SILVA",
+    "numero_rg": "2250408",
+    "tem_transtorno_psiquiatrico": false,
+    "tipo_transtorno": NaN,
+    "bo_desaparecimento": "2025_32DP_6127",
+    "bo_morte": "2025_32DP_6172",
+    "dias_entre": 0,
+    "tipo_morte": "CADAVER",
+    "forca_correlacao": "FORTE",
+    "validacao": {
+      "mesma_pessoa": true,
+      "dados_conferem": {
+        "data_nasc": true,
+        "mae": true,
+        "pai": true,
+        "rg": true
+      },
+      "correlacao_valida": true,
+      "confianca": 95,
+      "evidencias": [
+        "RG e dados familiares coincidem",
+        "mesma vítima em ambos os registros",
+        "relato da esposa em ambos os casos",
+        "intervalo de 0 dias entre ocorrências"
+      ],
+      "justificativa": "Dados de identificação idênticos, relato da mesma testemunha (esposa) e proximidade temporal confirmam a correlação entre desaparecimento e morte.",
+      "resposta_completa": "{\n  \"mesma_pessoa\": true,\n  \"dados_conferem\": {\"data_nasc\": true, \"mae\": true, \"pai\": true, \"rg\": true},\n  \"correlacao_valida\": true,\n  \"confianca\": 95,\n  \"evidencias\": [\"RG e dados familiares coincidem\", \"mesma vítima em ambos os registros\", \"relato da esposa em ambos os casos\", \"intervalo de 0 dias entre ocorrências\"],\n  \"justificativa\": \"Dados de identificação idênticos, relato da mesma testemunha (esposa) e proximidade temporal confirmam a correlação entre desaparecimento e morte.\"\n}"
+    },
+    "timestamp": "2025-11-23T10:39:16.489527"
+  },
+  {
+    "chave_pessoa": "nilderson_da_silva|19/04/1985",
+    "nome": "NILDERSON DA SILVA",
+    "data_nascimento": "19/04/1985",
+    "nome_mae": "MARIA APARECIDA FERREIRA",
+    "nome_pai": "VANDER DA SILVA",
+    "numero_rg": "2250408",
+    "tem_transtorno_psiquiatrico": false,
+    "tipo_transtorno": NaN,
+    "bo_desaparecimento": "2025_32DP_6127",
+    "bo_morte": "2025_32DP_6172",
+    "dias_entre": 0,
+    "tipo_morte": "CADAVER",
+    "forca_correlacao": "FORTE",
+    "validacao": {
+      "erro": "JSON não encontrado",
+      "resposta_texto": "{\n  \"mesma_pessoa\": true,\n  \"dados_conferem\": {\"data_nasc\":"
+    },
+    "timestamp": "2025-11-23T10:39:27.136148"
+  },
+  {
+    "chave_pessoa": "nilderson_da_silva|19/04/1985",
+    "nome": "NILDERSON DA SILVA",
+    "data_nascimento": "19/04/1985",
+    "nome_mae": "MARIA APARECIDA FERREIRA",
+    "nome_pai": "VANDER DA SILVA",
+    "numero_rg": "2250408",
+    "tem_transtorno_psiquiatrico": false,
+    "tipo_transtorno": NaN,
+    "bo_desaparecimento": "2025_32DP_6127",
+    "bo_morte": "2025_32DP_6172",
+    "dias_entre": 0,
+    "tipo_morte": "CADAVER",
+    "forca_correlacao": "FORTE",
+    "validacao": {
+      "mesma_pessoa": true,
+      "dados_conferem": {
+        "data_nasc": true,
+        "mae": true,
+        "pai": true,
+        "rg": true
+      },
+      "correlacao_valida": true,
+      "confianca": 95,
+      "evidencias": [
+        "RG e dados familiares coincidem",
+        "mesma vítima em ambos os registros",
+        "noticiante (esposa) idêntica",
+        "intervalo de 0 dias entre eventos",
+        "BOs vinculados à mesma delegacia"
+      ],
+      "justificativa": "Todos os dados de identificação coincidem, a mesma pessoa é mencionada em ambos os registros, e a esposa atua como noticiante em ambos os casos.",
+      "resposta_completa": "{\n  \"mesma_pessoa\": true,\n  \"dados_conferem\": {\"data_nasc\": true, \"mae\": true, \"pai\": true, \"rg\": true},\n  \"correlacao_valida\": true,\n  \"confianca\": 95,\n  \"evidencias\": [\"RG e dados familiares coincidem\", \"mesma vítima em ambos os registros\", \"noticiante (esposa) idêntica\", \"intervalo de 0 dias entre eventos\", \"BOs vinculados à mesma delegacia\"],\n  \"justificativa\": \"Todos os dados de identificação coincidem, a mesma pessoa é mencionada em ambos os registros, e a esposa atua como noticiante em ambos os casos.\"\n}"
+    },
+    "timestamp": "2025-11-23T10:39:35.245380"
+  },
+  {
+    "chave_pessoa": "simone_mariah_miro_da_silva_pereira|15/02/1984",
+    "nome": "SIMONE MARIAH MIRO DA SILVA PEREIRA",
+    "data_nascimento": "15/02/1984",
+    "nome_mae": "AFONSINA MIRO DA SILVA PEREIRA",
+    "nome_pai": "RAIMUNDO NONATO PEREIRA",
+    "numero_rg": "2248240",
+    "tem_transtorno_psiquiatrico": false,
+    "tipo_transtorno": NaN,
+    "bo_desaparecimento": "2025_11DP_3790",
+    "bo_morte": "2025_11DP_3825",
+    "dias_entre": 6,
+    "tipo_morte": "CADAVER",
+    "forca_correlacao": "FORTE",
+    "validacao": {
+      "mesma_pessoa": true,
+      "dados_conferem": {
+        "data_nasc": true,
+        "mae": true,
+        "pai": true,
+        "rg": true
+      },
+      "correlacao_valida": true,
+      "confianca": 95,
+      "evidencias": [
+        "RG compatível",
+        "nomes idênticos",
+        "mesmo local de ocorrência (Núcleo Bandeirante)",
+        "intervalo temporal coerente com desaparecimento e localização do corpo"
+      ],
+      "justificativa": "Dados de identificação (nome, data de nascimento, mãe, pai e RG) coincidem exatamente. Ambos os registros (desaparecimento e localização do corpo) ocorreram no mesmo local (Núcleo Bandeirante) e dentro de um intervalo de 6 dias, compatível com a dinâmica de desaparecimento e localização de corpos.",
+      "resposta_completa": "{\n  \"mesma_pessoa\": true,\n  \"dados_conferem\": {\"data_nasc\": true, \"mae\": true, \"pai\": true, \"rg\": true},\n  \"correlacao_valida\": true,\n  \"confianca\": 95,\n  \"evidencias\": [\"RG compatível\", \"nomes idênticos\", \"mesmo local de ocorrência (Núcleo Bandeirante)\", \"intervalo temporal coerente com desaparecimento e localização do corpo\"],\n  \"justificativa\": \"Dados de identificação (nome, data de nascimento, mãe, pai e RG) coincidem exatamente. Ambos os registros (desaparecimento e localização do corpo) ocorreram no mesmo local (Núcleo Bandeirante) e dentro de um intervalo de 6 dias, compatível com a dinâmica de desaparecimento e localização de corpos.\"\n}"
+    },
+    "timestamp": "2025-11-23T10:39:43.040147"
+  },
+  {
+    "chave_pessoa": "simone_mariah_miro_da_silva_pereira|15/02/1984",
+    "nome": "SIMONE MARIAH MIRO DA SILVA PEREIRA",
+    "data_nascimento": "15/02/1984",
+    "nome_mae": "AFONSINA MIRO DA SILVA PEREIRA",
+    "nome_pai": "RAIMUNDO NONATO PEREIRA",
+    "numero_rg": "2248240",
+    "tem_transtorno_psiquiatrico": false,
+    "tipo_transtorno": NaN,
+    "bo_desaparecimento": "2025_11DP_3790",
+    "bo_morte": "2025_11DP_3825",
+    "dias_entre": 6,
+    "tipo_morte": "CADAVER",
+    "forca_correlacao": "FORTE",
+    "validacao": {
+      "mesma_pessoa": true,
+      "dados_conferem": {
+        "data_nasc": true,
+        "mae": true,
+        "pai": true,
+        "rg": true
+      },
+      "correlacao_valida": true,
+      "confianca": 95,
+      "evidencias": [
+        "Dados de identidade idênticos em ambos os registros",
+        "Relação familiar entre comunicantes e vítima",
+        "Localização geográfica próxima entre o desaparecimento e o local do corpo"
+      ],
+      "justificativa": "Dados de identidade coincidem exatamente. O intervalo de 6 dias é compatível com investigações de desaparecimento, e a localização do corpo está em área próxima ao local do desaparecimento.",
+      "resposta_completa": "{\n  \"mesma_pessoa\": true,\n  \"dados_conferem\": {\"data_nasc\": true, \"mae\": true, \"pai\": true, \"rg\": true},\n  \"correlacao_valida\": true,\n  \"confianca\": 95,\n  \"evidencias\": [\"Dados de identidade idênticos em ambos os registros\", \"Relação familiar entre comunicantes e vítima\", \"Localização geográfica próxima entre o desaparecimento e o local do corpo\"],\n  \"justificativa\": \"Dados de identidade coincidem exatamente. O intervalo de 6 dias é compatível com investigações de desaparecimento, e a localização do corpo está em área próxima ao local do desaparecimento.\"\n}"
+    },
+    "timestamp": "2025-11-23T10:39:51.489092"
+  },
+  {
+    "chave_pessoa": "filipi_augusto_ribeiro|21/01/1991",
+    "nome": "FILIPI AUGUSTO RIBEIRO",
+    "data_nascimento": "21/01/1991",
+    "nome_mae": "ELEUSA MARIA RIBEIRO",
+    "nome_pai": NaN,
+    "numero_rg": "2901892",
+    "tem_transtorno_psiquiatrico": false,
+    "tipo_transtorno": NaN,
+    "bo_desaparecimento": "2025_35DP_4712",
+    "bo_morte": "2025_13DP_4284",
+    "dias_entre": 4,
+    "tipo_morte": "CADAVER",
+    "forca_correlacao": "FORTE",
+    "validacao": {
+      "mesma_pessoa": true,
+      "dados_conferem": {
+        "data_nasc": true,
+        "mae": true,
+        "pai": false,
+        "rg": true
+      },
+      "correlacao_valida": true,
+      "confianca": 95,
+      "evidencias": [
+        "Mãe relatou o desaparecimento",
+        "BO da morte menciona o número da ocorrência de desaparecimento",
+        "Localização do corpo por familiares",
+        "RG e nome coincidem"
+      ],
+      "justificativa": "Dados de identidade coincidem, histórico policial conecta os eventos e a localização do corpo foi informada por familiares.",
+      "resposta_completa": "{\n  \"mesma_pessoa\": true,\n  \"dados_conferem\": {\"data_nasc\": true, \"mae\": true, \"pai\": false, \"rg\": true},\n  \"correlacao_valida\": true,\n  \"confianca\": 95,\n  \"evidencias\": [\"Mãe relatou o desaparecimento\", \"BO da morte menciona o número da ocorrência de desaparecimento\", \"Localização do corpo por familiares\", \"RG e nome coincidem\"],\n  \"justificativa\": \"Dados de identidade coincidem, histórico policial conecta os eventos e a localização do corpo foi informada por familiares.\"\n}"
+    },
+    "timestamp": "2025-11-23T10:39:56.988578"
+  },
+  {
+    "chave_pessoa": "filipi_augusto_ribeiro|21/01/1991",
+    "nome": "FILIPI AUGUSTO RIBEIRO",
+    "data_nascimento": "21/01/1991",
+    "nome_mae": "ELEUSA MARIA RIBEIRO",
+    "nome_pai": NaN,
+    "numero_rg": "2901892",
+    "tem_transtorno_psiquiatrico": false,
+    "tipo_transtorno": NaN,
+    "bo_desaparecimento": "2025_35DP_4712",
+    "bo_morte": "2025_13DP_4284",
+    "dias_entre": 4,
+    "tipo_morte": "CADAVER",
+    "forca_correlacao": "FORTE",
+    "validacao": {
+      "mesma_pessoa": true,
+      "dados_conferem": {
+        "data_nasc": true,
+        "mae": true,
+        "pai": true,
+        "rg": true
+      },
+      "correlacao_valida": true,
+      "confianca": 95,
+      "evidencias": [
+        "Mãe relatou o desaparecimento",
+        "Corpo localizado por familiares",
+        "Menciona o número da ocorrência de desaparecimento",
+        "Mesmo local (Sobradinho-DF)"
+      ],
+      "justificativa": "Dados de identidade coincidem, histórico policial conecta os eventos e a localização do corpo está no mesmo município, com intervalo temporal compatível.",
+      "resposta_completa": "{\n  \"mesma_pessoa\": true,\n  \"dados_conferem\": {\"data_nasc\": true, \"mae\": true, \"pai\": true, \"rg\": true},\n  \"correlacao_valida\": true,\n  \"confianca\": 95,\n  \"evidencias\": [\"Mãe relatou o desaparecimento\", \"Corpo localizado por familiares\", \"Menciona o número da ocorrência de desaparecimento\", \"Mesmo local (Sobradinho-DF)\"],\n  \"justificativa\": \"Dados de identidade coincidem, histórico policial conecta os eventos e a localização do corpo está no mesmo município, com intervalo temporal compatível.\"\n}"
+    },
+    "timestamp": "2025-11-23T10:40:02.466400"
+  },
+  {
+    "chave_pessoa": "paulo_felipe_pereira_da_silva|04/01/1992",
+    "nome": "PAULO FELIPE PEREIRA DA SILVA",
+    "data_nascimento": "04/01/1992",
+    "nome_mae": "FRANCISCA DAS CHAGAS ASSUNÇÃO GOMES PEREIRA",
+    "nome_pai": "JOSÉ RIBEIRO DA SILVA",
+    "numero_rg": "2869855",
+    "tem_transtorno_psiquiatrico": false,
+    "tipo_transtorno": NaN,
+    "bo_desaparecimento": "2025_06DP_8950",
+    "bo_morte": "2025_06DP_8939",
+    "dias_entre": 0,
+    "tipo_morte": "CADAVER",
+    "forca_correlacao": "FORTE",
+    "validacao": {
+      "mesma_pessoa": false,
+      "dados_conferem": {
+        "data_nasc": false,
+        "mae": false,
+        "pai": false,
+        "rg": false
+      },
+      "correlacao_valida": false,
+      "confianca": 10,
+      "evidencias": [
+        "Nomes diferentes (PAULO FELIPE PEREIRA DA SILVA vs. JOHNNY FREITAS BENEDITO DE LIMA)",
+        "Mães diferentes (FRANCISCA DAS CHAGAS ASSUNÇÃO GOMES PEREIRA vs. MARIA FREITAS DE ARAUJO)",
+        "RG não mencionado no registro de morte",
+        "Ausência de conexão explícita entre os eventos nos históricos"
+      ],
+      "justificativa": "Dados identitários divergentes e ausência de vinculação direta entre os registros.",
+      "resposta_completa": "{\n  \"mesma_pessoa\": false,\n  \"dados_conferem\": {\"data_nasc\": false, \"mae\": false, \"pai\": false, \"rg\": false},\n  \"correlacao_valida\": false,\n  \"confianca\": 10,\n  \"evidencias\": [\"Nomes diferentes (PAULO FELIPE PEREIRA DA SILVA vs. JOHNNY FREITAS BENEDITO DE LIMA)\", \"Mães diferentes (FRANCISCA DAS CHAGAS ASSUNÇÃO GOMES PEREIRA vs. MARIA FREITAS DE ARAUJO)\", \"RG não mencionado no registro de morte\", \"Ausência de conexão explícita entre os eventos nos históricos\"],\n  \"justificativa\": \"Dados identitários divergentes e ausência de vinculação direta entre os registros.\"\n}"
+    },
+    "timestamp": "2025-11-23T10:40:08.685474"
+  },
+  {
+    "chave_pessoa": "paulo_felipe_pereira_da_silva|04/01/1992",
+    "nome": "PAULO FELIPE PEREIRA DA SILVA",
+    "data_nascimento": "04/01/1992",
+    "nome_mae": "FRANCISCA DAS CHAGAS ASSUNÇÃO GOMES PEREIRA",
+    "nome_pai": "JOSÉ RIBEIRO DA SILVA",
+    "numero_rg": "2869855",
+    "tem_transtorno_psiquiatrico": false,
+    "tipo_transtorno": NaN,
+    "bo_desaparecimento": "2025_06DP_8950",
+    "bo_morte": "2025_06DP_8939",
+    "dias_entre": 0,
+    "tipo_morte": "CADAVER",
+    "forca_correlacao": "FORTE",
+    "validacao": {
+      "mesma_pessoa": false,
+      "dados_conferem": {
+        "data_nasc": false,
+        "mae": false,
+        "pai": false,
+        "rg": false
+      },
+      "correlacao_valida": false,
+      "confianca": 20,
+      "evidencias": [
+        "Nomes diferentes (PAULO FELIPE PEREIRA DA SILVA vs. JOHNNY FREITAS BENEDITO DE LIMA)",
+        "Mães diferentes (FRANCISCA DAS CHAGAS ASSUNÇÃO GOMES PEREIRA vs. MARIA FREITAS DE ARAUJO)",
+        "RG não mencionado no registro de morte",
+        "Ausência de conexão explícita nos históricos"
+      ],
+      "justificativa": "Dados de identificação divergentes e ausência de informações que vinculem os registros.",
+      "resposta_completa": "{\n  \"mesma_pessoa\": false,\n  \"dados_conferem\": {\"data_nasc\": false, \"mae\": false, \"pai\": false, \"rg\": false},\n  \"correlacao_valida\": false,\n  \"confianca\": 20,\n  \"evidencias\": [\"Nomes diferentes (PAULO FELIPE PEREIRA DA SILVA vs. JOHNNY FREITAS BENEDITO DE LIMA)\", \"Mães diferentes (FRANCISCA DAS CHAGAS ASSUNÇÃO GOMES PEREIRA vs. MARIA FREITAS DE ARAUJO)\", \"RG não mencionado no registro de morte\", \"Ausência de conexão explícita nos históricos\"],\n  \"justificativa\": \"Dados de identificação divergentes e ausência de informações que vinculem os registros.\"\n}"
+    },
+    "timestamp": "2025-11-23T10:40:15.954366"
+  },
+  {
+    "chave_pessoa": "doraci_maria_de_almeida|25/02/1980",
+    "nome": "DORACI MARIA DE ALMEIDA",
+    "data_nascimento": "25/02/1980",
+    "nome_mae": "DIOGELINA MARIA DE ALMEIDA",
+    "nome_pai": "MAXIMIANO HIPOLITO DE ALMEIDA",
+    "numero_rg": "1852313",
+    "tem_transtorno_psiquiatrico": true,
+    "tipo_transtorno": "transtorno mental",
+    "bo_desaparecimento": "2025_35DP_4299",
+    "bo_morte": "2025_02DP_3111",
+    "dias_entre": 4,
+    "tipo_morte": "CADAVER",
+    "forca_correlacao": "FORTE",
+    "validacao": {
+      "mesma_pessoa": true,
+      "dados_conferem": {
+        "data_nasc": true,
+        "mae": true,
+        "pai": true,
+        "rg": true
+      },
+      "correlacao_valida": true,
+      "confianca": 95,
+      "evidencias": [
+        "RG e dados familiares coincidem",
+        "intervalo de 4 dias entre desaparecimento e localização do corpo",
+        "contato com UPA e hospital confirmam busca por DORACI"
+      ],
+      "justificativa": "Todos os dados de identificação coincidem, e o intervalo temporal é compatível com a investigação.",
+      "resposta_completa": "{\n  \"mesma_pessoa\": true,\n  \"dados_conferem\": {\"data_nasc\": true, \"mae\": true, \"pai\": true, \"rg\": true},\n  \"correlacao_valida\": true,\n  \"confianca\": 95,\n  \"evidencias\": [\"RG e dados familiares coincidem\", \"intervalo de 4 dias entre desaparecimento e localização do corpo\", \"contato com UPA e hospital confirmam busca por DORACI\"],\n  \"justificativa\": \"Todos os dados de identificação coincidem, e o intervalo temporal é compatível com a investigação.\"\n}"
+    },
+    "timestamp": "2025-11-23T10:40:24.766556"
+  },
+  {
+    "chave_pessoa": "doraci_maria_de_almeida|25/02/1980",
+    "nome": "DORACI MARIA DE ALMEIDA",
+    "data_nascimento": "25/02/1980",
+    "nome_mae": "DIOGELINA MARIA DE ALMEIDA",
+    "nome_pai": "MAXIMIANO HIPOLITO DE ALMEIDA",
+    "numero_rg": "1852313",
+    "tem_transtorno_psiquiatrico": true,
+    "tipo_transtorno": "transtorno mental",
+    "bo_desaparecimento": "2025_35DP_4299",
+    "bo_morte": "2025_02DP_3111",
+    "dias_entre": 4,
+    "tipo_morte": "CADAVER",
+    "forca_correlacao": "FORTE",
+    "validacao": {
+      "mesma_pessoa": true,
+      "dados_conferem": {
+        "data_nasc": true,
+        "mae": true,
+        "pai": true,
+        "rg": true
+      },
+      "correlacao_valida": true,
+      "confianca": 95,
+      "evidencias": [
+        "RG coincidente",
+        "nome, data de nascimento, pais idênticos",
+        "intervalo de 4 dias entre desaparecimento e localização do corpo"
+      ],
+      "justificativa": "Todos os dados de identificação coincidem, e o intervalo temporal é compatível com a sequência de eventos.",
+      "resposta_completa": "{\n  \"mesma_pessoa\": true,\n  \"dados_conferem\": {\"data_nasc\": true, \"mae\": true, \"pai\": true, \"rg\": true},\n  \"correlacao_valida\": true,\n  \"confianca\": 95,\n  \"evidencias\": [\"RG coincidente\", \"nome, data de nascimento, pais idênticos\", \"intervalo de 4 dias entre desaparecimento e localização do corpo\"],\n  \"justificativa\": \"Todos os dados de identificação coincidem, e o intervalo temporal é compatível com a sequência de eventos.\"\n}"
+    },
+    "timestamp": "2025-11-23T10:40:32.965543"
+  },
+  {
+    "chave_pessoa": "hudson_de_souza_custodio|27/10/1999",
+    "nome": "HUDSON DE SOUZA CUSTODIO",
+    "data_nascimento": "27/10/1999",
+    "nome_mae": "SALETE PEREIRA DE SOUZA",
+    "nome_pai": NaN,
+    "numero_rg": NaN,
+    "tem_transtorno_psiquiatrico": true,
+    "tipo_transtorno": "depressão",
+    "bo_desaparecimento": "2025_05DP_7890",
+    "bo_morte": "2025_01DP_4865",
+    "dias_entre": 23,
+    "tipo_morte": "CADAVER",
+    "forca_correlacao": "FORTE",
+    "validacao": {
+      "erro": "JSON não encontrado",
+      "resposta_texto": ""
+    },
+    "timestamp": "2025-11-23T10:40:43.844216"
+  },
+  {
+    "chave_pessoa": "andre_nascimento_dos_santos|17/10/1984",
+    "nome": "ANDRE NASCIMENTO DOS SANTOS",
+    "data_nascimento": "17/10/1984",
+    "nome_mae": "MARIA FATIMA NASCIMENTO DOS SANTOS",
+    "nome_pai": NaN,
+    "numero_rg": NaN,
+    "tem_transtorno_psiquiatrico": false,
+    "tipo_transtorno": NaN,
+    "bo_desaparecimento": "2025_18DP_3198",
+    "bo_morte": "2025_18DP_3200",
+    "dias_entre": 1,
+    "tipo_morte": "CADAVER",
+    "forca_correlacao": "FORTE",
+    "validacao": {
+      "mesma_pessoa": true,
+      "dados_conferem": {
+        "data_nasc": true,
+        "mae": true,
+        "pai": false,
+        "rg": false
+      },
+      "correlacao_valida": true,
+      "confianca": 95,
+      "evidencias": [
+        "Mencionado o mesmo nome completo em ambos os registros",
+        "Data de nascimento e nome da mãe coincidem",
+        "Relação direta entre o BO de desaparecimento (3198) e o cadáver encontrado",
+        "Localização do corpo em área próxima ao local do desaparecimento"
+      ],
+      "justificativa": "Dados de identidade coincidem, histórico policial conecta os eventos e o intervalo de 1 dia é compatível com a sequência lógica de desaparecimento e localização do corpo.",
+      "resposta_completa": "{\n  \"mesma_pessoa\": true,\n  \"dados_conferem\": {\"data_nasc\": true, \"mae\": true, \"pai\": false, \"rg\": false},\n  \"correlacao_valida\": true,\n  \"confianca\": 95,\n  \"evidencias\": [\"Mencionado o mesmo nome completo em ambos os registros\", \"Data de nascimento e nome da mãe coincidem\", \"Relação direta entre o BO de desaparecimento (3198) e o cadáver encontrado\", \"Localização do corpo em área próxima ao local do desaparecimento\"],\n  \"justificativa\": \"Dados de identidade coincidem, histórico policial conecta os eventos e o intervalo de 1 dia é compatível com a sequência lógica de desaparecimento e localização do corpo.\"\n}"
+    },
+    "timestamp": "2025-11-23T10:40:51.722797"
+  },
+  {
+    "chave_pessoa": "renato_gomes_da_silva|13/03/1974",
+    "nome": "RENATO GOMES DA SILVA",
+    "data_nascimento": "13/03/1974",
+    "nome_mae": "MARIAZELIA FELIPE FARIAS",
+    "nome_pai": "JOSÉ GOMES DA SILVA",
+    "numero_rg": "1761564",
+    "tem_transtorno_psiquiatrico": false,
+    "tipo_transtorno": NaN,
+    "bo_desaparecimento": "2025_27DP_6777",
+    "bo_morte": "2025_27DP_7327",
+    "dias_entre": 16,
+    "tipo_morte": "CADAVER",
+    "forca_correlacao": "FORTE",
+    "validacao": {
+      "mesma_pessoa": true,
+      "dados_conferem": {
+        "data_nasc": true,
+        "mae": true,
+        "pai": true,
+        "rg": true
+      },
+      "correlacao_valida": true,
+      "confianca": 95,
+      "evidencias": [
+        "Mencionado explicitamente no histórico da morte que o cadáver encontrado seria o desaparecido RENATO GOMES DA SILVA",
+        "RG e dados familiares coincidem entre os registros de desaparecimento e localização do cadáver",
+        "Ambos os registros (BO 2025_27DP_6777 e BO 2025_27DP_7327) referem-se ao mesmo nome e identidade"
+      ],
+      "justificativa": "Todos os dados de identificação coincidem, e o histórico da morte explicitamente associa o cadáver ao desaparecido.",
+      "resposta_completa": "{\n  \"mesma_pessoa\": true,\n  \"dados_conferem\": {\"data_nasc\": true, \"mae\": true, \"pai\": true, \"rg\": true},\n  \"correlacao_valida\": true,\n  \"confianca\": 95,\n  \"evidencias\": [\"Mencionado explicitamente no histórico da morte que o cadáver encontrado seria o desaparecido RENATO GOMES DA SILVA\", \"RG e dados familiares coincidem entre os registros de desaparecimento e localização do cadáver\", \"Ambos os registros (BO 2025_27DP_6777 e BO 2025_27DP_7327) referem-se ao mesmo nome e identidade\"],\n  \"justificativa\": \"Todos os dados de identificação coincidem, e o histórico da morte explicitamente associa o cadáver ao desaparecido.\"\n}"
+    },
+    "timestamp": "2025-11-23T10:40:59.571968"
+  },
+  {
+    "chave_pessoa": "maria_claudete_de_sousa|05/07/1973",
+    "nome": "MARIA CLAUDETE DE SOUSA",
+    "data_nascimento": "05/07/1973",
+    "nome_mae": "GABINA ALVES DE SOUSA",
+    "nome_pai": "FRANCISCO DE SOUSA FILHO",
+    "numero_rg": NaN,
+    "tem_transtorno_psiquiatrico": false,
+    "tipo_transtorno": NaN,
+    "bo_desaparecimento": "2025_24DP_2969",
+    "bo_morte": "2025_12DP_5086",
+    "dias_entre": 9,
+    "tipo_morte": "CADAVER",
+    "forca_correlacao": "FORTE",
+    "validacao": {
+      "mesma_pessoa": true,
+      "dados_conferem": {
+        "data_nasc": true,
+        "mae": true,
+        "pai": true,
+        "rg": false
+      },
+      "correlacao_valida": true,
+      "confianca": 90,
+      "evidencias": [
+        "Nome e dados familiares coincidem",
+        "Ausência de RG em ambos os registros",
+        "Intervalo temporal compatível com desaparecimento e localização do corpo"
+      ],
+      "justificativa": "Dados de identidade (nome, data de nascimento, mãe e pai) coincidem entre os registros de desaparecimento e morte. A ausência de RG em ambos os casos não invalida a correlação. O intervalo de 9 dias é compatível com o tempo necessário para a localização do corpo.",
+      "resposta_completa": "{\n  \"mesma_pessoa\": true,\n  \"dados_conferem\": {\"data_nasc\": true, \"mae\": true, \"pai\": true, \"rg\": false},\n  \"correlacao_valida\": true,\n  \"confianca\": 90,\n  \"evidencias\": [\"Nome e dados familiares coincidem\", \"Ausência de RG em ambos os registros\", \"Intervalo temporal compatível com desaparecimento e localização do corpo\"],\n  \"justificativa\": \"Dados de identidade (nome, data de nascimento, mãe e pai) coincidem entre os registros de desaparecimento e morte. A ausência de RG em ambos os casos não invalida a correlação. O intervalo de 9 dias é compatível com o tempo necessário para a localização do corpo.\"\n}"
+    },
+    "timestamp": "2025-11-23T10:41:05.977735"
+  },
+  {
+    "chave_pessoa": "maria_claudete_de_sousa|05/07/1973",
+    "nome": "MARIA CLAUDETE DE SOUSA",
+    "data_nascimento": "05/07/1973",
+    "nome_mae": "GABINA ALVES DE SOUSA",
+    "nome_pai": "FRANCISCO DE SOUSA FILHO",
+    "numero_rg": NaN,
+    "tem_transtorno_psiquiatrico": false,
+    "tipo_transtorno": NaN,
+    "bo_desaparecimento": "2025_24DP_2969",
+    "bo_morte": "2025_12DP_5086",
+    "dias_entre": 9,
+    "tipo_morte": "CADAVER",
+    "forca_correlacao": "FORTE",
+    "validacao": {
+      "mesma_pessoa": true,
+      "dados_conferem": {
+        "data_nasc": true,
+        "mae": true,
+        "pai": true,
+        "rg": false
+      },
+      "correlacao_valida": true,
+      "confianca": 90,
+      "evidencias": [
+        "Comparecimento da mãe no BO de desaparecimento",
+        "Localização do corpo em área preservada pela PMDF",
+        "Intervalo de 9 dias entre o desaparecimento e a localização do corpo"
+      ],
+      "justificativa": "Dados de identidade (nome, data de nascimento, mãe e pai) coincidem. A localização do corpo e o intervalo temporal são compatíveis com um desaparecimento seguido de morte. A ausência de RG não invalida a correlação.",
+      "resposta_completa": "{\n  \"mesma_pessoa\": true,\n  \"dados_conferem\": {\"data_nasc\": true, \"mae\": true, \"pai\": true, \"rg\": false},\n  \"correlacao_valida\": true,\n  \"confianca\": 90,\n  \"evidencias\": [\"Comparecimento da mãe no BO de desaparecimento\", \"Localização do corpo em área preservada pela PMDF\", \"Intervalo de 9 dias entre o desaparecimento e a localização do corpo\"],\n  \"justificativa\": \"Dados de identidade (nome, data de nascimento, mãe e pai) coincidem. A localização do corpo e o intervalo temporal são compatíveis com um desaparecimento seguido de morte. A ausência de RG não invalida a correlação.\"\n}"
+    },
+    "timestamp": "2025-11-23T10:41:11.479495"
+  },
+  {
+    "chave_pessoa": "paulo_henrique_duarte_de_moura|05/02/1991",
+    "nome": "PAULO HENRIQUE DUARTE DE MOURA",
+    "data_nascimento": "05/02/1991",
+    "nome_mae": "MÁRCIA DUARTE DE MOURA",
+    "nome_pai": "LUIS BARBOSA DE MOURA",
+    "numero_rg": "2829828",
+    "tem_transtorno_psiquiatrico": true,
+    "tipo_transtorno": "ansiedade",
+    "bo_desaparecimento": "2025_01DP_3750",
+    "bo_morte": "2025_09DP_1077",
+    "dias_entre": 2,
+    "tipo_morte": "CADAVER",
+    "forca_correlacao": "FORTE",
+    "validacao": {
+      "mesma_pessoa": true,
+      "dados_conferem": {
+        "data_nasc": true,
+        "mae": true,
+        "pai": true,
+        "rg": true
+      },
+      "correlacao_valida": true,
+      "confianca": 95,
+      "evidencias": [
+        "RG 2829828 consta no cadastro da vítima no momento da identificação do corpo",
+        "pai (Luis Barbosa de Moura) reporta desaparecimento do filho",
+        "identificação via carteira de motorista confirmada pela polícia"
+      ],
+      "justificativa": "Todos os dados de identificação (nome, data de nascimento, RG, pais) coincidem entre os registros de desaparecimento e morte. A identificação do corpo foi feita com base no RG e na carteira de motorista, além da relação paterna confirmada no histórico.",
+      "resposta_completa": "{\n  \"mesma_pessoa\": true,\n  \"dados_conferem\": {\"data_nasc\": true, \"mae\": true, \"pai\": true, \"rg\": true},\n  \"correlacao_valida\": true,\n  \"confianca\": 95,\n  \"evidencias\": [\"RG 2829828 consta no cadastro da vítima no momento da identificação do corpo\", \"pai (Luis Barbosa de Moura) reporta desaparecimento do filho\", \"identificação via carteira de motorista confirmada pela polícia\"],\n  \"justificativa\": \"Todos os dados de identificação (nome, data de nascimento, RG, pais) coincidem entre os registros de desaparecimento e morte. A identificação do corpo foi feita com base no RG e na carteira de motorista, além da relação paterna confirmada no histórico.\"\n}"
+    },
+    "timestamp": "2025-11-23T10:41:20.269039"
+  },
+  {
+    "chave_pessoa": "paulo_henrique_duarte_de_moura|05/02/1991",
+    "nome": "PAULO HENRIQUE DUARTE DE MOURA",
+    "data_nascimento": "05/02/1991",
+    "nome_mae": "MÁRCIA DUARTE DE MOURA",
+    "nome_pai": "LUIS BARBOSA DE MOURA",
+    "numero_rg": "2829828",
+    "tem_transtorno_psiquiatrico": true,
+    "tipo_transtorno": "ansiedade",
+    "bo_desaparecimento": "2025_01DP_3750",
+    "bo_morte": "2025_09DP_1077",
+    "dias_entre": 2,
+    "tipo_morte": "CADAVER",
+    "forca_correlacao": "FORTE",
+    "validacao": {
+      "erro": "JSON não encontrado",
+      "resposta_texto": ""
+    },
+    "timestamp": "2025-11-23T10:41:30.937461"
+  },
+  {
+    "chave_pessoa": "wanderley_rodrigues_pinheiro|18/04/1979",
+    "nome": "WANDERLEY RODRIGUES PINHEIRO",
+    "data_nascimento": "18/04/1979",
+    "nome_mae": "ELZA LÁZARE RODRIGUES PINHEIRO",
+    "nome_pai": "OLICIO ALVES PINHEIRO",
+    "numero_rg": "1983817",
+    "tem_transtorno_psiquiatrico": false,
+    "tipo_transtorno": NaN,
+    "bo_desaparecimento": "2025_33DP_5272",
+    "bo_morte": "2025_33DP_5161",
+    "dias_entre": 3,
+    "tipo_morte": "CADAVER",
+    "forca_correlacao": "FORTE",
+    "validacao": {
+      "mesma_pessoa": false,
+      "dados_conferem": {
+        "data_nasc": true,
+        "mae": true,
+        "pai": true,
+        "rg": true
+      },
+      "correlacao_valida": false,
+      "confianca": 30,
+      "evidencias": [
+        "Ausência de nome do falecido no BO de morte",
+        "Nenhum documento identificativo mencionado no cadáver",
+        "Relação indireta apenas pela mãe (não confirmada no BO de morte)"
+      ],
+      "justificativa": "Dados pessoais conferem, mas o BO de morte não menciona o nome ou RG do falecido, impossibilitando a identificação direta. A conexão depende de informações não verificáveis no documento de morte.",
+      "resposta_completa": "{\n  \"mesma_pessoa\": false,\n  \"dados_conferem\": {\"data_nasc\": true, \"mae\": true, \"pai\": true, \"rg\": true},\n  \"correlacao_valida\": false,\n  \"confianca\": 30,\n  \"evidencias\": [\"Ausência de nome do falecido no BO de morte\", \"Nenhum documento identificativo mencionado no cadáver\", \"Relação indireta apenas pela mãe (não confirmada no BO de morte)\"],\n  \"justificativa\": \"Dados pessoais conferem, mas o BO de morte não menciona o nome ou RG do falecido, impossibilitando a identificação direta. A conexão depende de informações não verificáveis no documento de morte.\"\n}"
+    },
+    "timestamp": "2025-11-23T10:41:40.925482"
+  },
+  {
+    "chave_pessoa": "wanderley_rodrigues_pinheiro|18/04/1979",
+    "nome": "WANDERLEY RODRIGUES PINHEIRO",
+    "data_nascimento": "18/04/1979",
+    "nome_mae": "ELZA LÁZARE RODRIGUES PINHEIRO",
+    "nome_pai": "OLICIO ALVES PINHEIRO",
+    "numero_rg": "1983817",
+    "tem_transtorno_psiquiatrico": false,
+    "tipo_transtorno": NaN,
+    "bo_desaparecimento": "2025_33DP_5272",
+    "bo_morte": "2025_33DP_5161",
+    "dias_entre": 3,
+    "tipo_morte": "CADAVER",
+    "forca_correlacao": "FORTE",
+    "validacao": {
+      "erro": "JSON não encontrado",
+      "resposta_texto": ""
+    },
+    "timestamp": "2025-11-23T10:41:51.725867"
+  },
+  {
+    "chave_pessoa": "jonatha_junio_farias_de_carvalho|11/11/1988",
+    "nome": "JONATHA JÚNIO FARIAS DE CARVALHO",
+    "data_nascimento": "11/11/1988",
+    "nome_mae": "IRENE FARIAS DOS SANTOS",
+    "nome_pai": "OLIMPIO MACARIO DE CARVALHO",
+    "numero_rg": "5181922538",
+    "tem_transtorno_psiquiatrico": false,
+    "tipo_transtorno": NaN,
+    "bo_desaparecimento": "2025_05DP_6530",
+    "bo_morte": "2025_05DP_6963",
+    "dias_entre": 15,
+    "tipo_morte": "HOMICIDIO",
+    "forca_correlacao": "FORTE",
+    "validacao": {
+      "mesma_pessoa": true,
+      "dados_conferem": {
+        "data_nasc": true,
+        "mae": true,
+        "pai": true,
+        "rg": true
+      },
+      "correlacao_valida": true,
+      "confianca": 95,
+      "evidencias": [
+        "RG coincidente",
+        "nomes dos pais idênticos",
+        "data de nascimento igual",
+        "relato policial vincula os eventos"
+      ],
+      "justificativa": "Dados biométricos e familiares coincidem. O nome 'TAIN' no desaparecimento e 'CAROL' na morte podem ser apelidos ou erros de transcrição. A investigação policial e o intervalo temporal são compatíveis.",
+      "resposta_completa": "{\n  \"mesma_pessoa\": true,\n  \"dados_conferem\": {\"data_nasc\": true, \"mae\": true, \"pai\": true, \"rg\": true},\n  \"correlacao_valida\": true,\n  \"confianca\": 95,\n  \"evidencias\": [\"RG coincidente\", \"nomes dos pais idênticos\", \"data de nascimento igual\", \"relato policial vincula os eventos\"],\n  \"justificativa\": \"Dados biométricos e familiares coincidem. O nome 'TAIN' no desaparecimento e 'CAROL' na morte podem ser apelidos ou erros de transcrição. A investigação policial e o intervalo temporal são compatíveis.\"\n}"
+    },
+    "timestamp": "2025-11-23T10:41:59.482944"
+  },
+  {
+    "chave_pessoa": "pheterson_de_fatima_rodrigues|03/03/2005",
+    "nome": "PHETERSON DE FATIMA RODRIGUES",
+    "data_nascimento": "03/03/2005",
+    "nome_mae": "SIMONE DE FATIMA",
+    "nome_pai": NaN,
+    "numero_rg": NaN,
+    "tem_transtorno_psiquiatrico": false,
+    "tipo_transtorno": NaN,
+    "bo_desaparecimento": "2025_30DP_4967",
+    "bo_morte": "2025_30DP_5020",
+    "dias_entre": 3,
+    "tipo_morte": "CADAVER",
+    "forca_correlacao": "FORTE",
+    "validacao": {
+      "mesma_pessoa": true,
+      "dados_conferem": {
+        "data_nasc": true,
+        "mae": true,
+        "pai": false,
+        "rg": false
+      },
+      "correlacao_valida": true,
+      "confianca": 95,
+      "evidencias": [
+        "Nome e data de nascimento coincidem nos dois registros",
+        "Mãe mencionada em ambos os registros",
+        "Polícia indica possível conexão entre desaparecimento e cadáver localizado"
+      ],
+      "justificativa": "Dados de identidade (nome, data de nascimento e mãe) coincidem. A polícia relaciona diretamente o cadáver ao desaparecido. Ausência de RG em ambos os registros não invalida a correlação.",
+      "resposta_completa": "{\n  \"mesma_pessoa\": true,\n  \"dados_conferem\": {\"data_nasc\": true, \"mae\": true, \"pai\": false, \"rg\": false},\n  \"correlacao_valida\": true,\n  \"confianca\": 95,\n  \"evidencias\": [\"Nome e data de nascimento coincidem nos dois registros\", \"Mãe mencionada em ambos os registros\", \"Polícia indica possível conexão entre desaparecimento e cadáver localizado\"],\n  \"justificativa\": \"Dados de identidade (nome, data de nascimento e mãe) coincidem. A polícia relaciona diretamente o cadáver ao desaparecido. Ausência de RG em ambos os registros não invalida a correlação.\"\n}"
+    },
+    "timestamp": "2025-11-23T10:42:06.342452"
+  },
+  {
+    "chave_pessoa": "pheterson_de_fatima_rodrigues|03/03/2005",
+    "nome": "PHETERSON DE FATIMA RODRIGUES",
+    "data_nascimento": "03/03/2005",
+    "nome_mae": "SIMONE DE FATIMA",
+    "nome_pai": NaN,
+    "numero_rg": NaN,
+    "tem_transtorno_psiquiatrico": false,
+    "tipo_transtorno": NaN,
+    "bo_desaparecimento": "2025_30DP_4967",
+    "bo_morte": "2025_30DP_5020",
+    "dias_entre": 3,
+    "tipo_morte": "HOMICIDIO",
+    "forca_correlacao": "FORTE",
+    "validacao": {
+      "mesma_pessoa": true,
+      "dados_conferem": {
+        "data_nasc": true,
+        "mae": true,
+        "pai": false,
+        "rg": false
+      },
+      "correlacao_valida": true,
+      "confianca": 95,
+      "evidencias": [
+        "Mencionado como 'pessoa desaparecida' no relatório de morte",
+        "Mesmo nome e data de nascimento em ambos os registros",
+        "Localização do cadáver em área de difícil acesso, compatível com desaparecimento"
+      ],
+      "justificativa": "Dados de identidade coincidem (nome, data de nascimento e mãe). O histórico de morte explicita a conexão com o desaparecimento, e o intervalo de 3 dias é compatível com investigações em áreas remotas.",
+      "resposta_completa": "{\n  \"mesma_pessoa\": true,\n  \"dados_conferem\": {\"data_nasc\": true, \"mae\": true, \"pai\": false, \"rg\": false},\n  \"correlacao_valida\": true,\n  \"confianca\": 95,\n  \"evidencias\": [\"Mencionado como 'pessoa desaparecida' no relatório de morte\", \"Mesmo nome e data de nascimento em ambos os registros\", \"Localização do cadáver em área de difícil acesso, compatível com desaparecimento\"],\n  \"justificativa\": \"Dados de identidade coincidem (nome, data de nascimento e mãe). O histórico de morte explicita a conexão com o desaparecimento, e o intervalo de 3 dias é compatível com investigações em áreas remotas.\"\n}"
+    },
+    "timestamp": "2025-11-23T10:42:15.986264"
+  },
+  {
+    "chave_pessoa": "pheterson_de_fatima_rodrigues|03/03/2005",
+    "nome": "PHETERSON DE FATIMA RODRIGUES",
+    "data_nascimento": "03/03/2005",
+    "nome_mae": "SIMONE DE FATIMA",
+    "nome_pai": NaN,
+    "numero_rg": NaN,
+    "tem_transtorno_psiquiatrico": false,
+    "tipo_transtorno": NaN,
+    "bo_desaparecimento": "2025_30DP_4967",
+    "bo_morte": "2025_30DP_5020",
+    "dias_entre": 3,
+    "tipo_morte": "HOMICIDIO",
+    "forca_correlacao": "FORTE",
+    "validacao": {
+      "mesma_pessoa": true,
+      "dados_conferem": {
+        "data_nasc": true,
+        "mae": true,
+        "pai": false,
+        "rg": false
+      },
+      "correlacao_valida": true,
+      "confianca": 95,
+      "evidencias": [
+        "Nome e data de nascimento coincidem nos dois registros",
+        "Mãe mencionada em ambos os casos",
+        "Morte mencionada como possível ligação ao desaparecimento"
+      ],
+      "justificativa": "Dados de identidade (nome, data de nascimento e mãe) coincidem. O histórico da morte indica conexão direta com o desaparecimento. Intervalo de 3 dias é compatível com investigações.",
+      "resposta_completa": "{\n  \"mesma_pessoa\": true,\n  \"dados_conferem\": {\"data_nasc\": true, \"mae\": true, \"pai\": false, \"rg\": false},\n  \"correlacao_valida\": true,\n  \"confianca\": 95,\n  \"evidencias\": [\"Nome e data de nascimento coincidem nos dois registros\", \"Mãe mencionada em ambos os casos\", \"Morte mencionada como possível ligação ao desaparecimento\"],\n  \"justificativa\": \"Dados de identidade (nome, data de nascimento e mãe) coincidem. O histórico da morte indica conexão direta com o desaparecimento. Intervalo de 3 dias é compatível com investigações.\"\n}"
+    },
+    "timestamp": "2025-11-23T10:42:24.182439"
+  },
+  {
+    "chave_pessoa": "pheterson_de_fatima_rodrigues|03/03/2005",
+    "nome": "PHETERSON DE FATIMA RODRIGUES",
+    "data_nascimento": "03/03/2005",
+    "nome_mae": "SIMONE DE FATIMA",
+    "nome_pai": NaN,
+    "numero_rg": NaN,
+    "tem_transtorno_psiquiatrico": false,
+    "tipo_transtorno": NaN,
+    "bo_desaparecimento": "2025_30DP_4967",
+    "bo_morte": "2025_30DP_5020",
+    "dias_entre": 3,
+    "tipo_morte": "CADAVER",
+    "forca_correlacao": "FORTE",
+    "validacao": {
+      "mesma_pessoa": true,
+      "dados_conferem": {
+        "data_nasc": true,
+        "mae": true,
+        "pai": true,
+        "rg": true
+      },
+      "correlacao_valida": true,
+      "confianca": 95,
+      "evidencias": [
+        "Nome e data de nascimento coincidem",
+        "Mãe mencionada em ambos os registros",
+        "Histórico da morte menciona o desaparecimento anterior",
+        "Localização do cadáver em área de difícil acesso"
+      ],
+      "justificativa": "Dados de identidade coincidem, histórico da morte explicita conexão com o desaparecimento e intervalo de 3 dias é compatível com investigações de localização de corpos.",
+      "resposta_completa": "{\n  \"mesma_pessoa\": true,\n  \"dados_conferem\": {\"data_nasc\": true, \"mae\": true, \"pai\": true, \"rg\": true},\n  \"correlacao_valida\": true,\n  \"confianca\": 95,\n  \"evidencias\": [\"Nome e data de nascimento coincidem\", \"Mãe mencionada em ambos os registros\", \"Histórico da morte menciona o desaparecimento anterior\", \"Localização do cadáver em área de difícil acesso\"],\n  \"justificativa\": \"Dados de identidade coincidem, histórico da morte explicita conexão com o desaparecimento e intervalo de 3 dias é compatível com investigações de localização de corpos.\"\n}"
+    },
+    "timestamp": "2025-11-23T10:42:32.934760"
+  },
+  {
+    "chave_pessoa": "lucas_marques_de_souza|26/12/1994",
+    "nome": "LUCAS MARQUES DE SOUZA",
+    "data_nascimento": "26/12/1994",
+    "nome_mae": "TEREZA MACIEL DE SOUZA SILVA",
+    "nome_pai": "EDNILSON MARQUES DA SILVA",
+    "numero_rg": "3093724",
+    "tem_transtorno_psiquiatrico": false,
+    "tipo_transtorno": NaN,
+    "bo_desaparecimento": "2025_06DP_6241",
+    "bo_morte": "2025_09DP_948",
+    "dias_entre": 0,
+    "tipo_morte": "CADAVER",
+    "forca_correlacao": "FORTE",
+    "validacao": {
+      "mesma_pessoa": true,
+      "dados_conferem": {
+        "data_nasc": true,
+        "mae": true,
+        "pai": true,
+        "rg": true
+      },
+      "correlacao_valida": true,
+      "confianca": 95,
+      "evidencias": [
+        "RG e dados familiares coincidem",
+        "CEPOL foi informado sobre desaparecimento antes da localização do cadáver",
+        "intervalo de 0 dias entre eventos"
+      ],
+      "justificativa": "Dados de identificação coincidem integralmente. O CEPOL foi notificado sobre o desaparecimento antes da localização do cadáver, e o intervalo de 0 dias entre os eventos é compatível com a dinâmica de investigações de desaparecimentos.",
+      "resposta_completa": "{\n  \"mesma_pessoa\": true,\n  \"dados_conferem\": {\"data_nasc\": true, \"mae\": true, \"pai\": true, \"rg\": true},\n  \"correlacao_valida\": true,\n  \"confianca\": 95,\n  \"evidencias\": [\"RG e dados familiares coincidem\", \"CEPOL foi informado sobre desaparecimento antes da localização do cadáver\", \"intervalo de 0 dias entre eventos\"],\n  \"justificativa\": \"Dados de identificação coincidem integralmente. O CEPOL foi notificado sobre o desaparecimento antes da localização do cadáver, e o intervalo de 0 dias entre os eventos é compatível com a dinâmica de investigações de desaparecimentos.\"\n}"
+    },
+    "timestamp": "2025-11-23T10:42:40.859945"
+  },
+  {
+    "chave_pessoa": "francisco_valfrido_caetano|26/09/1966",
+    "nome": "FRANCISCO VALFRIDO CAETANO",
+    "data_nascimento": "26/09/1966",
+    "nome_mae": "EXPEDITA FRENTE ALCNTARA",
+    "nome_pai": "ALEXANDRE RAIMUNDO CAETANO",
+    "numero_rg": NaN,
+    "tem_transtorno_psiquiatrico": false,
+    "tipo_transtorno": NaN,
+    "bo_desaparecimento": "2025_DPELETRONICA_98701",
+    "bo_morte": "2025_01DP_3211",
+    "dias_entre": 1,
+    "tipo_morte": "CADAVER",
+    "forca_correlacao": "FORTE",
+    "validacao": {
+      "erro": "JSON não encontrado",
+      "resposta_texto": ""
+    },
+    "timestamp": "2025-11-23T10:42:52.096276"
+  }
+]

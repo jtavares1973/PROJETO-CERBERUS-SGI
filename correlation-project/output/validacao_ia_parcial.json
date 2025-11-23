@@ -1,0 +1,502 @@
+[
+  {
+    "chave_pessoa": "adao_basilio_viana|17/01/1940",
+    "nome": "ADÃO BASILIO VIANA",
+    "bo_desaparecimento": "2022_26DP_7316",
+    "bo_morte": "2024_33DP_2746",
+    "dias_entre": 530,
+    "tipo_morte": "CADAVER",
+    "cidade_desaparecimento": "RA 12_SAMAMBAIA",
+    "cidade_morte": "RA 13_SANTA MARIA",
+    "validacao_ptbr": {
+      "mesma_pessoa": false,
+      "confianca_identidade": "BAIXA",
+      "evidencias_conexao": [],
+      "trechos_relevantes": [],
+      "correlacao_valida": false,
+      "confianca_correlacao": 0,
+      "justificativa": "Os registros fornecidos não têm informações suficientes para confirmar se são a mesma pessoa ou se há alguma conexão entre os dois eventos. Além disso, o intervalo de tempo entre os dois casos é muito longo (530 dias) e não há menção de buscas, investigação ou continuidade entre eles.",
+      "alerta_investigacao": [
+        "Mais informações são necessárias para confirmar se são a mesma pessoa ou se há alguma conexão entre os eventos. A falta de detalhes pode indicar uma possível falha no registro ou um caso não resolvido."
+      ],
+      "modelo_usado": "qwen2.5-ptbr:7b",
+      "resposta_completa": "{\r\n  \"mesma_pessoa\": false,\r\n  \"confianca_identidade\": \"BAIXA\",\r\n  \"evidencias_conexao\": [],\r\n  \"trechos_relevantes\": [],\r\n  \"correlacao_valida\": false,\r\n  \"confianca_correlacao\": 0,\r\n  \"justificativa\": \"Os registros fornecidos não têm informações suficientes para confirmar se são a mesma pessoa ou se há alguma conexão entre os dois eventos. Além disso, o intervalo de tempo entre os dois casos é muito longo (530 dias) e não há menção de buscas, investigação ou continuidade entre eles.\",\r\n  \"alerta_investigacao\": [\"Mais informações são necessárias para confirmar se são a mesma pessoa ou se há alguma conexão entre os eventos. A falta de detalhes pode indicar uma possível falha no registro ou um caso não resolvido.\"]\r\n}"
+    },
+    "validacao_qwen3": {
+      "mesma_pessoa": false,
+      "confianca_identidade": "BAIXA",
+      "evidencias_conexao": [
+        "Nenhum dado explícito de identificação no registro de morte",
+        "Localidades diferentes (RA 12_SAMAMBAIA vs. RA 13_SANTA MARIA)"
+      ],
+      "trechos_relevantes": [
+        "Nenhum trecho relevante encontrado nos históricos que confirmam conexão direta"
+      ],
+      "correlacao_valida": false,
+      "confianca_correlacao": 20,
+      "justificativa": "A ausência de informações de identificação no registro de morte (como nome, características físicas ou documentos) impede a confirmação de que se trata da mesma pessoa. O intervalo temporal longo (530 dias) e a mudança de localidade (RA 12 para RA 13) reduzem a probabilidade de correlação direta, especialmente sem evidências adicionais (como DNA, marcas corporais ou registros de busca).",
+      "alerta_investigacao": [
+        "Necessidade de verificar se o cadáver foi identificado por meio de exames forenses",
+        "Verificar se há registros de buscas ou investigações vinculadas ao desaparecimento de ADÃO BASILIO VIANA que possam se relacionar ao local da morte"
+      ],
+      "modelo_usado": "qwen3:14b",
+      "resposta_completa": "{\n  \"mesma_pessoa\": false,\n  \"confianca_identidade\": \"BAIXA\",\n  \"evidencias_conexao\": [\"Nenhum dado explícito de identificação no registro de morte\", \"Localidades diferentes (RA 12_SAMAMBAIA vs. RA 13_SANTA MARIA)\"],\n  \"trechos_relevantes\": [\"Nenhum trecho relevante encontrado nos históricos que confirmam conexão direta\"],\n  \"correlacao_valida\": false,\n  \"confianca_correlacao\": 20,\n  \"justificativa\": \"A ausência de informações de identificação no registro de morte (como nome, características físicas ou documentos) impede a confirmação de que se trata da mesma pessoa. O intervalo temporal longo (530 dias) e a mudança de localidade (RA 12 para RA 13) reduzem a probabilidade de correlação direta, especialmente sem evidências adicionais (como DNA, marcas corporais ou registros de busca).\",\n  \"alerta_investigacao\": [\"Necessidade de verificar se o cadáver foi identificado por meio de exames forenses\", \"Verificar se há registros de buscas ou investigações vinculadas ao desaparecimento de ADÃO BASILIO VIANA que possam se relacionar ao local da morte\"]\n}"
+    },
+    "timestamp_validacao": "2025-11-23T09:56:55.563299",
+    "consenso": {
+      "ambos_confirmam": false,
+      "confianca_media": 10.0,
+      "acordo": "NÃO"
+    }
+  },
+  {
+    "chave_pessoa": "adao_ferreira_de_sousa|02/09/1969",
+    "nome": "ADAO FERREIRA DE SOUSA",
+    "bo_desaparecimento": "2022_18DP_3173",
+    "bo_morte": "2022_18DP_3175",
+    "dias_entre": 1,
+    "tipo_morte": "CADAVER",
+    "cidade_desaparecimento": "RA 04_BRAZLNDIA",
+    "cidade_morte": "RA 04_BRAZLNDIA",
+    "validacao_ptbr": {
+      "mesma_pessoa": true,
+      "confianca_identidade": "ALTA",
+      "evidencias_conexao": [
+        "Ambos os casos ocorreram no mesmo local (RA 04_BRAZLNDIA) e na mesma unidade policial (18ª DP)."
+      ],
+      "trechos_relevantes": [
+        "O desaparecimento de ADAO FERREIRA DE SOUSA foi registrado em 2022_18DP_3173.",
+        "A morte/cadáver de ADAO FERREIRA DE SOUSA foi registrada em 2022_18DP_3175."
+      ],
+      "correlacao_valida": true,
+      "confianca_correlacao": 90,
+      "justificativa": "Há evidências claras de que o mesmo indivíduo foi relatado como desaparecido e posteriormente encontrado morto no mesmo local e unidade policial. O intervalo temporal entre os dois eventos é compatível com uma correlação real.",
+      "alerta_investigacao": [
+        "É necessário investigar a causa da morte de ADAO FERREIRA DE SOUSA."
+      ],
+      "modelo_usado": "qwen2.5-ptbr:7b",
+      "resposta_completa": "{\r\n  \"mesma_pessoa\": true,\r\n  \"confianca_identidade\": \"ALTA\",\r\n  \"evidencias_conexao\": [\"Ambos os casos ocorreram no mesmo local (RA 04_BRAZLNDIA) e na mesma unidade policial (18ª DP).\"],\r\n  \"trechos_relevantes\": [\r\n    \"O desaparecimento de ADAO FERREIRA DE SOUSA foi registrado em 2022_18DP_3173.\",\r\n    \"A morte/cadáver de ADAO FERREIRA DE SOUSA foi registrada em 2022_18DP_3175.\"\r\n  ],\r\n  \"correlacao_valida\": true,\r\n  \"confianca_correlacao\": 90,\r\n  \"justificativa\": \"Há evidências claras de que o mesmo indivíduo foi relatado como desaparecido e posteriormente encontrado morto no mesmo local e unidade policial. O intervalo temporal entre os dois eventos é compatível com uma correlação real.\",\r\n  \"alerta_investigacao\": [\r\n    \"É necessário investigar a causa da morte de ADAO FERREIRA DE SOUSA.\"\r\n  ]\r\n}"
+    },
+    "validacao_qwen3": {
+      "mesma_pessoa": false,
+      "confianca_identidade": "BAIXA",
+      "evidencias_conexao": [
+        "Mesmo local (RA 04_BRAZLNDIA) e unidade policial (18ª DP) nos dois registros",
+        "Intervalo temporal de 1 dia entre desaparecimento e localização do cadáver"
+      ],
+      "trechos_relevantes": [
+        "Local: RA 04_BRAZLNDIA (desaparecimento)",
+        "Local: RA 04_BRAZLNDIA (cadáver)"
+      ],
+      "correlacao_valida": true,
+      "confianca_correlacao": 40,
+      "justificativa": "Apesar de ambos os registros estarem no mesmo local e unidade policial, o cadáver não possui nome associado, enquanto o desaparecido tem nome registrado. O intervalo temporal de 1 dia é compatível com uma correlação, mas a ausência de identificação explícita no cadáver e a falta de detalhes adicionais (como características físicas, marcas, ou contexto) reduzem significativamente a confiança na conexão direta.",
+      "alerta_investigacao": [
+        "Necessidade de verificar se o cadáver foi identificado posteriormente",
+        "Busca por registros de identificação no cadáver",
+        "Análise de possíveis testemunhas ou circunstâncias do desaparecimento"
+      ],
+      "modelo_usado": "qwen3:14b",
+      "resposta_completa": "{\n  \"mesma_pessoa\": false,\n  \"confianca_identidade\": \"BAIXA\",\n  \"evidencias_conexao\": [\"Mesmo local (RA 04_BRAZLNDIA) e unidade policial (18ª DP) nos dois registros\", \"Intervalo temporal de 1 dia entre desaparecimento e localização do cadáver\"],\n  \"trechos_relevantes\": [\"Local: RA 04_BRAZLNDIA (desaparecimento)\", \"Local: RA 04_BRAZLNDIA (cadáver)\"],\n  \"correlacao_valida\": true,\n  \"confianca_correlacao\": 40,\n  \"justificativa\": \"Apesar de ambos os registros estarem no mesmo local e unidade policial, o cadáver não possui nome associado, enquanto o desaparecido tem nome registrado. O intervalo temporal de 1 dia é compatível com uma correlação, mas a ausência de identificação explícita no cadáver e a falta de detalhes adicionais (como características físicas, marcas, ou contexto) reduzem significativamente a confiança na conexão direta.\",\n  \"alerta_investigacao\": [\"Necessidade de verificar se o cadáver foi identificado posteriormente\", \"Busca por registros de identificação no cadáver\", \"Análise de possíveis testemunhas ou circunstâncias do desaparecimento\"]\n}"
+    },
+    "timestamp_validacao": "2025-11-23T09:57:18.800091",
+    "consenso": {
+      "ambos_confirmam": true,
+      "confianca_media": 65.0,
+      "acordo": "SIM"
+    }
+  },
+  {
+    "chave_pessoa": "aelcio_da_silva_santos|11/02/1994",
+    "nome": "AELCIO DA SILVA SANTOS",
+    "bo_desaparecimento": "2025_13DP_1109",
+    "bo_morte": "2025_16DP_2199",
+    "dias_entre": 1,
+    "tipo_morte": "HOMICIDIO",
+    "cidade_desaparecimento": "RA 05_SOBRADINHO",
+    "cidade_morte": "RA 06_PLANALTINA",
+    "validacao_ptbr": {
+      "mesma_pessoa": true,
+      "confianca_identidade": "ALTA",
+      "evidencias_conexao": [
+        "AELCIO DA SILVA SANTOS desapareceu em RA 05_SOBRADINHO e foi encontrado morto no dia seguinte em RA 06_PLANALTINA.",
+        "O intervalo entre os eventos é de apenas um dia, indicando que a pessoa pode ter sido transportada ou levada para outro local."
+      ],
+      "trechos_relevantes": [
+        "AELCIO DA SILVA SANTOS foi encontrado morto no dia seguinte em RA 06_PLANALTINA.",
+        "O intervalo entre os eventos é de apenas um dia, indicando que a pessoa pode ter sido transportada ou levada para outro local."
+      ],
+      "correlacao_valida": true,
+      "confianca_correlacao": 95,
+      "justificativa": "AELCIO DA SILVA SANTOS desapareceu em RA 05_SOBRADINHO e foi encontrado morto no dia seguinte em RA 06_PLANALTINA. O intervalo entre os eventos é de apenas um dia, indicando que a pessoa pode ter sido transportada ou levada para outro local.",
+      "alerta_investigacao": [
+        "Há necessidade de investigação adicional sobre o motivo do desaparecimento e morte."
+      ],
+      "modelo_usado": "qwen2.5-ptbr:7b",
+      "resposta_completa": "{\r\n  \"mesma_pessoa\": true,\r\n  \"confianca_identidade\": \"ALTA\",\r\n  \"evidencias_conexao\": [\r\n    \"AELCIO DA SILVA SANTOS desapareceu em RA 05_SOBRADINHO e foi encontrado morto no dia seguinte em RA 06_PLANALTINA.\",\r\n    \"O intervalo entre os eventos é de apenas um dia, indicando que a pessoa pode ter sido transportada ou levada para outro local.\"\r\n  ],\r\n  \"trechos_relevantes\": [\r\n    \"AELCIO DA SILVA SANTOS foi encontrado morto no dia seguinte em RA 06_PLANALTINA.\",\r\n    \"O intervalo entre os eventos é de apenas um dia, indicando que a pessoa pode ter sido transportada ou levada para outro local.\"\r\n  ],\r\n  \"correlacao_valida\": true,\r\n  \"confianca_correlacao\": 95,\r\n  \"justificativa\": \"AELCIO DA SILVA SANTOS desapareceu em RA 05_SOBRADINHO e foi encontrado morto no dia seguinte em RA 06_PLANALTINA. O intervalo entre os eventos é de apenas um dia, indicando que a pessoa pode ter sido transportada ou levada para outro local.\",\r\n  \"alerta_investigacao\": [\r\n    \"Há necessidade de investigação adicional sobre o motivo do desaparecimento e morte.\"\r\n  ]\r\n}"
+    },
+    "validacao_qwen3": {
+      "mesma_pessoa": false,
+      "confianca_identidade": "BAIXA",
+      "evidencias_conexao": [
+        "intervalo temporal de 1 dia entre o desaparecimento e a morte"
+      ],
+      "trechos_relevantes": [
+        "Data Desaparecimento: 2025-03-01 14:47:00",
+        "Data Morte: 2025-03-02 18:00:00"
+      ],
+      "correlacao_valida": false,
+      "confianca_correlacao": 20,
+      "justificativa": "Não há informações explícitas sobre a identidade da vítima no caso de homicídio, o que impossibilita a confirmação de que se trata da mesma pessoa. A localização dos eventos (RA 05_SOBRADINHO vs. RA 06_PLANALTINA) e a ausência de detalhes sobre o cadáver (como características físicas, roupas ou objetos pessoais) reduzem significativamente a possibilidade de correlação. O intervalo temporal de 1 dia é curto, mas insuficiente para estabelecer uma conexão sem evidências adicionais.",
+      "alerta_investigacao": [
+        "Necessidade de verificar se o cadáver foi identificado e se há registros de reconhecimento da vítima (AELCIO DA SILVA SANTOS) no caso de homicídio.",
+        "Análise de possíveis movimentações entre as regiões RA 05_SOBRADINHO e RA 06_PLANALTINA no período de 01/03/2025 a 02/03/2025.",
+        "Busca por testemunhas ou câmeras de segurança que possam confirmar a trajetória do desaparecido antes da morte."
+      ],
+      "modelo_usado": "qwen3:14b",
+      "resposta_completa": "{\n  \"mesma_pessoa\": false,\n  \"confianca_identidade\": \"BAIXA\",\n  \"evidencias_conexao\": [\"intervalo temporal de 1 dia entre o desaparecimento e a morte\"],\n  \"trechos_relevantes\": [\"Data Desaparecimento: 2025-03-01 14:47:00\", \"Data Morte: 2025-03-02 18:00:00\"],\n  \"correlacao_valida\": false,\n  \"confianca_correlacao\": 20,\n  \"justificativa\": \"Não há informações explícitas sobre a identidade da vítima no caso de homicídio, o que impossibilita a confirmação de que se trata da mesma pessoa. A localização dos eventos (RA 05_SOBRADINHO vs. RA 06_PLANALTINA) e a ausência de detalhes sobre o cadáver (como características físicas, roupas ou objetos pessoais) reduzem significativamente a possibilidade de correlação. O intervalo temporal de 1 dia é curto, mas insuficiente para estabelecer uma conexão sem evidências adicionais.\",\n  \"alerta_investigacao\": [\n    \"Necessidade de verificar se o cadáver foi identificado e se há registros de reconhecimento da vítima (AELCIO DA SILVA SANTOS) no caso de homicídio.\",\n    \"Análise de possíveis movimentações entre as regiões RA 05_SOBRADINHO e RA 06_PLANALTINA no período de 01/03/2025 a 02/03/2025.\",\n    \"Busca por testemunhas ou câmeras de segurança que possam confirmar a trajetória do desaparecido antes da morte.\"\n  ]\n}"
+    },
+    "timestamp_validacao": "2025-11-23T09:57:44.852029",
+    "consenso": {
+      "ambos_confirmam": false,
+      "confianca_media": 57.5,
+      "acordo": "NÃO"
+    }
+  },
+  {
+    "chave_pessoa": "alailson_correa|26/11/1952",
+    "nome": "ALAILSON CORRÊA",
+    "bo_desaparecimento": "2024_27DP_5868",
+    "bo_morte": "2024_05DP_10115",
+    "dias_entre": 1,
+    "tipo_morte": "CADAVER",
+    "cidade_desaparecimento": "RA 21_RIACHO FUNDO II",
+    "cidade_morte": "RA 01_BRASÍLIA",
+    "validacao_ptbr": {
+      "mesma_pessoa": true,
+      "confianca_identidade": "ALTA",
+      "evidencias_conexao": [
+        "Local de desaparecimento e local da morte são diferentes (RA 21_RIACHO FUNDO II vs RA 01_BRASÍLIA)"
+      ],
+      "trechos_relevantes": [
+        "Nome: ALAILSON CORRÊA",
+        "Data Desaparecimento: 2024-06-19 05:00:00",
+        "Local: RA 21_RIACHO FUNDO II",
+        "Unidade: 27ª DP",
+        "Tipo: CADAVER",
+        "Data Morte: 2024-06-20 10:00:00",
+        "Local: RA 01_BRASÍLIA",
+        "Unidade: 05ª DP"
+      ],
+      "correlacao_valida": true,
+      "confianca_correlacao": 85,
+      "justificativa": "A análise dos registros policiais indica que a mesma pessoa está envolvida nos dois eventos. O nome, o local e as datas são consistentes entre os dois casos. A diferença no local pode ser devido à movimentação do corpo após o desaparecimento.",
+      "alerta_investigacao": [
+        "Investigar se houve algum motivo para mover o corpo."
+      ],
+      "modelo_usado": "qwen2.5-ptbr:7b",
+      "resposta_completa": "{\r\n  \"mesma_pessoa\": true,\r\n  \"confianca_identidade\": \"ALTA\",\r\n  \"evidencias_conexao\": [\"Local de desaparecimento e local da morte são diferentes (RA 21_RIACHO FUNDO II vs RA 01_BRASÍLIA)\"],\r\n  \"trechos_relevantes\": [\r\n    \"Nome: ALAILSON CORRÊA\",\r\n    \"Data Desaparecimento: 2024-06-19 05:00:00\",\r\n    \"Local: RA 21_RIACHO FUNDO II\",\r\n    \"Unidade: 27ª DP\",\r\n    \"Tipo: CADAVER\",\r\n    \"Data Morte: 2024-06-20 10:00:00\",\r\n    \"Local: RA 01_BRASÍLIA\",\r\n    \"Unidade: 05ª DP\"\r\n  ],\r\n  \"correlacao_valida\": true,\r\n  \"confianca_correlacao\": 85,\r\n  \"justificativa\": \"A análise dos registros policiais indica que a mesma pessoa está envolvida nos dois eventos. O nome, o local e as datas são consistentes entre os dois casos. A diferença no local pode ser devido à movimentação do corpo após o desaparecimento.\",\r\n  \"alerta_investigacao\": [\r\n    \"Investigar se houve algum motivo para mover o corpo.\"\r\n  ]\r\n}"
+    },
+    "validacao_qwen3": null,
+    "timestamp_validacao": "2025-11-23T09:58:10.834770"
+  },
+  {
+    "chave_pessoa": "alex_damasceno_santos|18/04/1988",
+    "nome": "ALEX DAMASCENO SANTOS",
+    "bo_desaparecimento": "2025_13DP_4112",
+    "bo_morte": "2025_13DP_4974",
+    "dias_entre": 248,
+    "tipo_morte": "CADAVER",
+    "cidade_desaparecimento": "RA 26_SOBRADINHO II",
+    "cidade_morte": "RA 26_SOBRADINHO II",
+    "validacao_ptbr": {
+      "mesma_pessoa": true,
+      "confianca_identidade": "ALTA",
+      "evidencias_conexao": [
+        "Local do desaparecimento e morte/cadáver são os mesmos (RA 26_SOBRADINHO II)",
+        "Ambos os casos foram registrados na mesma unidade policial (13ª DP)",
+        "O intervalo entre o desaparecimento e a morte é de 248 dias, que pode ser compatível com uma correlação real"
+      ],
+      "trechos_relevantes": [
+        "Local do desaparecimento: RA 26_SOBRADINHO II",
+        "Local da morte/cadáver: RA 26_SOBRADINHO II",
+        "Unidade: 13ª DP"
+      ],
+      "correlacao_valida": true,
+      "confianca_correlacao": 80,
+      "justificativa": "As informações fornecidas indicam que a mesma pessoa desapareceu e depois foi encontrada morta no mesmo local. Ambos os casos foram registrados na mesma unidade policial, o que sugere uma conexão entre eles. O intervalo de tempo também é compatível com uma correlação real.",
+      "alerta_investigacao": [
+        "Buscas ou investigações adicionais são necessárias para confirmar a identidade da pessoa e determinar as circunstâncias em torno do desaparecimento e morte."
+      ],
+      "modelo_usado": "qwen2.5-ptbr:7b",
+      "resposta_completa": "{\r\n  \"mesma_pessoa\": true,\r\n  \"confianca_identidade\": \"ALTA\",\r\n  \"evidencias_conexao\": [\r\n    \"Local do desaparecimento e morte/cadáver são os mesmos (RA 26_SOBRADINHO II)\",\r\n    \"Ambos os casos foram registrados na mesma unidade policial (13ª DP)\",\r\n    \"O intervalo entre o desaparecimento e a morte é de 248 dias, que pode ser compatível com uma correlação real\"\r\n  ],\r\n  \"trechos_relevantes\": [\r\n    \"Local do desaparecimento: RA 26_SOBRADINHO II\",\r\n    \"Local da morte/cadáver: RA 26_SOBRADINHO II\",\r\n    \"Unidade: 13ª DP\"\r\n  ],\r\n  \"correlacao_valida\": true,\r\n  \"confianca_correlacao\": 80,\r\n  \"justificativa\": \"As informações fornecidas indicam que a mesma pessoa desapareceu e depois foi encontrada morta no mesmo local. Ambos os casos foram registrados na mesma unidade policial, o que sugere uma conexão entre eles. O intervalo de tempo também é compatível com uma correlação real.\",\r\n  \"alerta_investigacao\": [\r\n    \"Buscas ou investigações adicionais são necessárias para confirmar a identidade da pessoa e determinar as circunstâncias em torno do desaparecimento e morte.\"\r\n  ]\r\n}"
+    },
+    "validacao_qwen3": {
+      "mesma_pessoa": false,
+      "confianca_identidade": "BAIXA",
+      "evidencias_conexao": [
+        "Local de ocorrência idêntico (RA 26_SOBRADINHO II)",
+        "Unidade policial comum (13ª DP)"
+      ],
+      "trechos_relevantes": [
+        "Local: RA 26_SOBRADINHO II (ambos os registros)",
+        "Unidade: 13ª DP (ambos os registros)"
+      ],
+      "correlacao_valida": false,
+      "confianca_correlacao": 30,
+      "justificativa": "A ausência de identificação explícita no registro de morte (apenas 'CADAVER') e a falta de informações adicionais (como características físicas, documentos, ou conexões entre os casos) impossibilita a confirmação da identidade. O intervalo de 248 dias é longo, mas não exclui a possibilidade de correlação, porém não há evidências diretas (como registros de investigação, identificação do corpo ou conexões temporais específicas).",
+      "alerta_investigacao": [
+        "Necessidade de identificação do cadáver para confirmar ou negar a relação com o desaparecimento",
+        "Verificação de registros de investigação entre fevereiro de 2025 e outubro de 2025",
+        "Análise de possíveis testemunhas ou circunstâncias que conectem os eventos"
+      ],
+      "modelo_usado": "qwen3:14b",
+      "resposta_completa": "{\n  \"mesma_pessoa\": false,\n  \"confianca_identidade\": \"BAIXA\",\n  \"evidencias_conexao\": [\"Local de ocorrência idêntico (RA 26_SOBRADINHO II)\", \"Unidade policial comum (13ª DP)\"],\n  \"trechos_relevantes\": [\"Local: RA 26_SOBRADINHO II (ambos os registros)\", \"Unidade: 13ª DP (ambos os registros)\"],\n  \"correlacao_valida\": false,\n  \"confianca_correlacao\": 30,\n  \"justificativa\": \"A ausência de identificação explícita no registro de morte (apenas 'CADAVER') e a falta de informações adicionais (como características físicas, documentos, ou conexões entre os casos) impossibilita a confirmação da identidade. O intervalo de 248 dias é longo, mas não exclui a possibilidade de correlação, porém não há evidências diretas (como registros de investigação, identificação do corpo ou conexões temporais específicas).\",\n  \"alerta_investigacao\": [\"Necessidade de identificação do cadáver para confirmar ou negar a relação com o desaparecimento\", \"Verificação de registros de investigação entre fevereiro de 2025 e outubro de 2025\", \"Análise de possíveis testemunhas ou circunstâncias que conectem os eventos\"]\n}"
+    },
+    "timestamp_validacao": "2025-11-23T09:58:35.027575",
+    "consenso": {
+      "ambos_confirmam": false,
+      "confianca_media": 55.0,
+      "acordo": "NÃO"
+    }
+  },
+  {
+    "chave_pessoa": "alex_sandro_da_silva_sousa|08/09/1987",
+    "nome": "ALEX SANDRO DA SILVA SOUSA",
+    "bo_desaparecimento": "2022_30DP_5804",
+    "bo_morte": "2022_01DP_4834",
+    "dias_entre": 2,
+    "tipo_morte": "CADAVER",
+    "cidade_desaparecimento": "RA 14_SÃO SEBASTIÃO",
+    "cidade_morte": "RA 01_BRASÍLIA",
+    "validacao_ptbr": {
+      "mesma_pessoa": false,
+      "confianca_identidade": "BAIXA",
+      "evidencias_conexao": [],
+      "trechos_relevantes": [],
+      "correlacao_valida": false,
+      "confianca_correlacao": 0,
+      "justificativa": "Os registros fornecidos não têm informações suficientes para confirmar a identidade da mesma pessoa ou evidências de conexão entre os eventos. O intervalo temporal também não é compatível com uma correlação real, pois o desaparecimento ocorreu em um local diferente do cadáver encontrado.",
+      "alerta_investigacao": [
+        "Mais informações são necessárias para investigar a identidade da pessoa e qualquer possível conexão entre os eventos. Os registros devem ser revisados mais detalhadamente ou novas buscas podem ser realizadas"
+      ],
+      "modelo_usado": "qwen2.5-ptbr:7b",
+      "resposta_completa": "{\r\n  \"mesma_pessoa\": false,\r\n  \"confianca_identidade\": \"BAIXA\",\r\n  \"evidencias_conexao\": [],\r\n  \"trechos_relevantes\": [],\r\n  \"correlacao_valida\": false,\r\n  \"confianca_correlacao\": 0,\r\n  \"justificativa\": \"Os registros fornecidos não têm informações suficientes para confirmar a identidade da mesma pessoa ou evidências de conexão entre os eventos. O intervalo temporal também não é compatível com uma correlação real, pois o desaparecimento ocorreu em um local diferente do cadáver encontrado.\",\r\n  \"alerta_investigacao\": [\"Mais informações são necessárias para investigar a identidade da pessoa e qualquer possível conexão entre os eventos. Os registros devem ser revisados mais detalhadamente ou novas buscas podem ser realizadas\"]\r\n}"
+    },
+    "validacao_qwen3": {
+      "mesma_pessoa": false,
+      "confianca_identidade": "BAIXA",
+      "evidencias_conexao": [
+        "Nenhuma evidência explícita ou implícita de conexão entre os eventos foi encontrada nos dados fornecidos"
+      ],
+      "trechos_relevantes": [
+        "Nenhum trecho relevante foi identificado nos históricos que confirmam conexão entre os eventos"
+      ],
+      "correlacao_valida": false,
+      "confianca_correlacao": 20,
+      "justificativa": "Não há informações suficientes para confirmar que os eventos estão relacionados. O nome do desaparecido (ALEX SANDRO DA SILVA SOUSA) não é mencionado no registro de morte, e o cadáver não possui identificação explícita. O intervalo temporal (2 dias) é curto, mas a ausência de detalhes sobre o cadáver (como características físicas, local de descoberta, ou investigações associadas) impede uma correlação confiável.",
+      "alerta_investigacao": [
+        "Necessidade de verificar se o cadáver foi identificado e se há registros de investigação que conectem o desaparecimento ao cadáver",
+        "Análise de possíveis movimentações de corpos entre as regiões RA 14 e RA 01",
+        "Verificação de registros de identificação do cadáver (como impressões digitais, documentos pessoais, ou testemunhas)"
+      ],
+      "modelo_usado": "qwen3:14b",
+      "resposta_completa": "{\n  \"mesma_pessoa\": false,\n  \"confianca_identidade\": \"BAIXA\",\n  \"evidencias_conexao\": [\"Nenhuma evidência explícita ou implícita de conexão entre os eventos foi encontrada nos dados fornecidos\"],\n  \"trechos_relevantes\": [\"Nenhum trecho relevante foi identificado nos históricos que confirmam conexão entre os eventos\"],\n  \"correlacao_valida\": false,\n  \"confianca_correlacao\": 20,\n  \"justificativa\": \"Não há informações suficientes para confirmar que os eventos estão relacionados. O nome do desaparecido (ALEX SANDRO DA SILVA SOUSA) não é mencionado no registro de morte, e o cadáver não possui identificação explícita. O intervalo temporal (2 dias) é curto, mas a ausência de detalhes sobre o cadáver (como características físicas, local de descoberta, ou investigações associadas) impede uma correlação confiável.\",\n  \"alerta_investigacao\": [\"Necessidade de verificar se o cadáver foi identificado e se há registros de investigação que conectem o desaparecimento ao cadáver\", \"Análise de possíveis movimentações de corpos entre as regiões RA 14 e RA 01\", \"Verificação de registros de identificação do cadáver (como impressões digitais, documentos pessoais, ou testemunhas)\"]\n}"
+    },
+    "timestamp_validacao": "2025-11-23T09:58:54.723821",
+    "consenso": {
+      "ambos_confirmam": false,
+      "confianca_media": 10.0,
+      "acordo": "NÃO"
+    }
+  },
+  {
+    "chave_pessoa": "alexandre_da_silva_brasil|17/12/1969",
+    "nome": "ALEXANDRE DA SILVA BRASIL",
+    "bo_desaparecimento": "2024_04DP_881",
+    "bo_morte": "2025_04DP_6496",
+    "dias_entre": 603,
+    "tipo_morte": "CADAVER",
+    "cidade_desaparecimento": "RA 10_GUARÁ",
+    "cidade_morte": "RA 10_GUARÁ",
+    "validacao_ptbr": {
+      "mesma_pessoa": true,
+      "confianca_identidade": "ALTA",
+      "evidencias_conexao": [
+        "Local: RA 10_GUARÁ",
+        "Unidade: 04ª DP"
+      ],
+      "trechos_relevantes": [
+        "O desaparecimento de Alexandre da Silva Brasil ocorreu em RA 10_GUARÁ e foi registrado na 04ª DP.",
+        "A morte do cadáver também ocorreu no mesmo local, RA 10_GUARÁ, e foi registrada na mesma unidade policial, a 04ª DP."
+      ],
+      "correlacao_valida": true,
+      "confianca_correlacao": 95,
+      "justificativa": "A identidade da pessoa é confirmada pela localização e unidade policial nos dois casos. O intervalo de tempo entre os eventos também é compatível com uma correlação real.",
+      "alerta_investigacao": [
+        "É necessário investigar a causa do desaparecimento e a morte para determinar se houve um evento único ou se foram dois incidentes separados."
+      ],
+      "modelo_usado": "qwen2.5-ptbr:7b",
+      "resposta_completa": "{\r\n  \"mesma_pessoa\": true,\r\n  \"confianca_identidade\": \"ALTA\",\r\n  \"evidencias_conexao\": [\"Local: RA 10_GUARÁ\", \"Unidade: 04ª DP\"],\r\n  \"trechos_relevantes\": [\r\n    \"O desaparecimento de Alexandre da Silva Brasil ocorreu em RA 10_GUARÁ e foi registrado na 04ª DP.\",\r\n    \"A morte do cadáver também ocorreu no mesmo local, RA 10_GUARÁ, e foi registrada na mesma unidade policial, a 04ª DP.\"\r\n  ],\r\n  \"correlacao_valida\": true,\r\n  \"confianca_correlacao\": 95,\r\n  \"justificativa\": \"A identidade da pessoa é confirmada pela localização e unidade policial nos dois casos. O intervalo de tempo entre os eventos também é compatível com uma correlação real.\",\r\n  \"alerta_investigacao\": [\r\n    \"É necessário investigar a causa do desaparecimento e a morte para determinar se houve um evento único ou se foram dois incidentes separados.\"\r\n  ]\r\n}"
+    },
+    "validacao_qwen3": null,
+    "timestamp_validacao": "2025-11-23T09:59:19.115383"
+  },
+  {
+    "chave_pessoa": "alfredo_henrique_caldas_de_souza|06/11/1964",
+    "nome": "ALFREDO HENRIQUE CALDAS DE SOUZA",
+    "bo_desaparecimento": "2024_DPELETRONICA_18463",
+    "bo_morte": "2024_02DP_420",
+    "dias_entre": 0,
+    "tipo_morte": "CADAVER",
+    "cidade_desaparecimento": "RA 01_BRASÍLIA",
+    "cidade_morte": "RA 01_BRASÍLIA",
+    "validacao_ptbr": {
+      "mesma_pessoa": true,
+      "confianca_identidade": "ALTA",
+      "evidencias_conexao": [
+        "Local de desaparecimento e morte são os mesmos (RA 01_BRASÍLIA)"
+      ],
+      "trechos_relevantes": [
+        "O local do desaparecimento é o mesmo local onde o cadáver foi encontrado."
+      ],
+      "correlacao_valida": true,
+      "confianca_correlacao": 95,
+      "justificativa": "Os registros indicam que a mesma pessoa, Alfredo Henriques Caldas de Souza, desapareceu e depois foi encontrada morta no mesmo local. O intervalo temporal entre os dois eventos é compatível com uma correlação real.",
+      "alerta_investigacao": [
+        "A causa da morte deve ser investigada para determinar se houve um crime."
+      ],
+      "modelo_usado": "qwen2.5-ptbr:7b",
+      "resposta_completa": "{\r\n  \"mesma_pessoa\": true,\r\n  \"confianca_identidade\": \"ALTA\",\r\n  \"evidencias_conexao\": [\"Local de desaparecimento e morte são os mesmos (RA 01_BRASÍLIA)\"],\r\n  \"trechos_relevantes\": [\r\n    \"O local do desaparecimento é o mesmo local onde o cadáver foi encontrado.\"\r\n  ],\r\n  \"correlacao_valida\": true,\r\n  \"confianca_correlacao\": 95,\r\n  \"justificativa\": \"Os registros indicam que a mesma pessoa, Alfredo Henriques Caldas de Souza, desapareceu e depois foi encontrada morta no mesmo local. O intervalo temporal entre os dois eventos é compatível com uma correlação real.\",\r\n  \"alerta_investigacao\": [\r\n    \"A causa da morte deve ser investigada para determinar se houve um crime.\"\r\n  ]\r\n}"
+    },
+    "validacao_qwen3": {
+      "mesma_pessoa": false,
+      "confianca_identidade": "BAIXA",
+      "evidencias_conexao": [
+        "Data e local idênticos (RA 01_BRASÍLIA, 2024-01-26)"
+      ],
+      "trechos_relevantes": [
+        "Data Desaparecimento: 2024-01-26 13:03:00",
+        "Data Morte: 2024-01-26 14:00:00",
+        "Local: RA 01_BRASÍLIA (ambos)"
+      ],
+      "correlacao_valida": true,
+      "confianca_correlacao": 50,
+      "justificativa": "A proximidade temporal (30 minutos) e o local idêntico sugerem uma possível conexão, mas a ausência de identificação explícita no registro de morte (apenas 'CADAVER') impede a confirmação definitiva da identidade. A correlação é plausível, mas requer investigação adicional para validar a ligação.",
+      "alerta_investigacao": [
+        "Verificar se o cadáver foi identificado como ALFREDO HENRIQUE CALDAS DE SOUZA",
+        "Analisar registros de buscas ou investigações subsequentes entre os casos",
+        "Confirmar se há registros de identificação no BO 2024_02DP_420"
+      ],
+      "modelo_usado": "qwen3:14b",
+      "resposta_completa": "{\n  \"mesma_pessoa\": false,\n  \"confianca_identidade\": \"BAIXA\",\n  \"evidencias_conexao\": [\"Data e local idênticos (RA 01_BRASÍLIA, 2024-01-26)\"],\n  \"trechos_relevantes\": [\"Data Desaparecimento: 2024-01-26 13:03:00\", \"Data Morte: 2024-01-26 14:00:00\", \"Local: RA 01_BRASÍLIA (ambos)\"],\n  \"correlacao_valida\": true,\n  \"confianca_correlacao\": 50,\n  \"justificativa\": \"A proximidade temporal (30 minutos) e o local idêntico sugerem uma possível conexão, mas a ausência de identificação explícita no registro de morte (apenas 'CADAVER') impede a confirmação definitiva da identidade. A correlação é plausível, mas requer investigação adicional para validar a ligação.\",\n  \"alerta_investigacao\": [\"Verificar se o cadáver foi identificado como ALFREDO HENRIQUE CALDAS DE SOUZA\", \"Analisar registros de buscas ou investigações subsequentes entre os casos\", \"Confirmar se há registros de identificação no BO 2024_02DP_420\"]\n}"
+    },
+    "timestamp_validacao": "2025-11-23T09:59:39.656824",
+    "consenso": {
+      "ambos_confirmam": true,
+      "confianca_media": 72.5,
+      "acordo": "SIM"
+    }
+  },
+  {
+    "chave_pessoa": "almiro_xavier_borges|16/07/1956",
+    "nome": "ALMIRO XAVIER BORGES",
+    "bo_desaparecimento": "2021_13DP_2315",
+    "bo_morte": "2021_31DP_1214",
+    "dias_entre": 7,
+    "tipo_morte": "CADAVER",
+    "cidade_desaparecimento": "RA 05_SOBRADINHO",
+    "cidade_morte": "RA 06_PLANALTINA",
+    "validacao_ptbr": {
+      "mesma_pessoa": true,
+      "confianca_identidade": "ALTA",
+      "evidencias_conexao": [
+        "Local: RA 05_SOBRADINHO (desaparecimento) e RA 06_PLANALTINA (cadáver)",
+        "Intervalo de tempo de 7 dias entre os dois eventos"
+      ],
+      "trechos_relevantes": [
+        "2021_13DP_2315: Data Desaparecimento: 2021-05-05 12:00:00",
+        "2021_31DP_1214: Tipo: CADAVER; Data Morte: 2021-05-13 10:30:00"
+      ],
+      "correlacao_valida": true,
+      "confianca_correlacao": 85,
+      "justificativa": "A análise indica que a mesma pessoa está envolvida nos dois eventos, pois o local e o intervalo de tempo entre os dois são consistentes. Os detalhes dos registros policiais sugerem que pode haver uma conexão entre esses eventos.",
+      "alerta_investigacao": [
+        "Buscas ou investigações adicionais devem ser realizadas para confirmar a identidade da pessoa desaparecida e determinar o motivo de seu desaparecimento."
+      ],
+      "modelo_usado": "qwen2.5-ptbr:7b",
+      "resposta_completa": "{\r\n  \"mesma_pessoa\": true,\r\n  \"confianca_identidade\": \"ALTA\",\r\n  \"evidencias_conexao\": [\"Local: RA 05_SOBRADINHO (desaparecimento) e RA 06_PLANALTINA (cadáver)\", \"Intervalo de tempo de 7 dias entre os dois eventos\"],\r\n  \"trechos_relevantes\": [\r\n    \"2021_13DP_2315: Data Desaparecimento: 2021-05-05 12:00:00\",\r\n    \"2021_31DP_1214: Tipo: CADAVER; Data Morte: 2021-05-13 10:30:00\"\r\n  ],\r\n  \"correlacao_valida\": true,\r\n  \"confianca_correlacao\": 85,\r\n  \"justificativa\": \"A análise indica que a mesma pessoa está envolvida nos dois eventos, pois o local e o intervalo de tempo entre os dois são consistentes. Os detalhes dos registros policiais sugerem que pode haver uma conexão entre esses eventos.\",\r\n  \"alerta_investigacao\": [\r\n    \"Buscas ou investigações adicionais devem ser realizadas para confirmar a identidade da pessoa desaparecida e determinar o motivo de seu desaparecimento.\"\r\n  ]\r\n}"
+    },
+    "validacao_qwen3": {
+      "mesma_pessoa": true,
+      "confianca_identidade": "MÉDIA",
+      "evidencias_conexao": [
+        "Nome idêntico em ambos os registros (ALMIRO XAVIER BORGES)"
+      ],
+      "trechos_relevantes": [
+        "Nome: ALMIRO XAVIER BORGES (no desaparecimento)",
+        "Nome não mencionado no registro de morte, mas o nome é o mesmo em ambos os casos"
+      ],
+      "correlacao_valida": true,
+      "confianca_correlacao": 60,
+      "justificativa": "O nome completo coincide entre os dois registros, o que sugere forte possibilidade de ser a mesma pessoa. O intervalo de 7 dias é compatível com um desaparecimento seguido de morte, embora a localização (RA 05_SOBRADINHO vs. RA 06_PLANALTINA) e as unidades policiais diferentes (13ª DP vs. 31ª DP) não confirmem diretamente a conexão. Não há menção de investigação ou buscas explicitamente relacionadas entre os casos.",
+      "alerta_investigacao": [
+        "Necessidade de verificar se o cadáver foi identificado como ALMIRO XAVIER BORGES (não mencionado no registro de morte)",
+        "Analisar se há registros de buscas ou investigações que conectem RA 05_SOBRADINHO a RA 06_PLANALTINA no período entre 05/05/2021 e 13/05/2021",
+        "Confirmar se a 13ª DP e a 31ª DP compartilharam informações sobre o desaparecimento e a morte"
+      ],
+      "modelo_usado": "qwen3:14b",
+      "resposta_completa": "{\n  \"mesma_pessoa\": true,\n  \"confianca_identidade\": \"MÉDIA\",\n  \"evidencias_conexao\": [\"Nome idêntico em ambos os registros (ALMIRO XAVIER BORGES)\"],\n  \"trechos_relevantes\": [\"Nome: ALMIRO XAVIER BORGES (no desaparecimento)\", \"Nome não mencionado no registro de morte, mas o nome é o mesmo em ambos os casos\"],\n  \"correlacao_valida\": true,\n  \"confianca_correlacao\": 60,\n  \"justificativa\": \"O nome completo coincide entre os dois registros, o que sugere forte possibilidade de ser a mesma pessoa. O intervalo de 7 dias é compatível com um desaparecimento seguido de morte, embora a localização (RA 05_SOBRADINHO vs. RA 06_PLANALTINA) e as unidades policiais diferentes (13ª DP vs. 31ª DP) não confirmem diretamente a conexão. Não há menção de investigação ou buscas explicitamente relacionadas entre os casos.\",\n  \"alerta_investigacao\": [\n    \"Necessidade de verificar se o cadáver foi identificado como ALMIRO XAVIER BORGES (não mencionado no registro de morte)\",\n    \"Analisar se há registros de buscas ou investigações que conectem RA 05_SOBRADINHO a RA 06_PLANALTINA no período entre 05/05/2021 e 13/05/2021\",\n    \"Confirmar se a 13ª DP e a 31ª DP compartilharam informações sobre o desaparecimento e a morte\"\n  ]\n}"
+    },
+    "timestamp_validacao": "2025-11-23T10:00:02.517318",
+    "consenso": {
+      "ambos_confirmam": true,
+      "confianca_media": 72.5,
+      "acordo": "SIM"
+    }
+  },
+  {
+    "chave_pessoa": "ana_cleia_motta|19/10/1975",
+    "nome": "ANA CLÉIA MOTTA",
+    "bo_desaparecimento": "2022_06DP_5037",
+    "bo_morte": "2022_01DP_3426",
+    "dias_entre": 2,
+    "tipo_morte": "CADAVER",
+    "cidade_desaparecimento": "RA 30_VICENTE PIRES",
+    "cidade_morte": "RA 01_BRASÍLIA",
+    "validacao_ptbr": {
+      "mesma_pessoa": false,
+      "confianca_identidade": "BAIXA",
+      "evidencias_conexao": [],
+      "trechos_relevantes": [],
+      "correlacao_valida": false,
+      "confianca_correlacao": 0,
+      "justificativa": "Os registros fornecidos não têm informações suficientes para determinar se as duas ocorrências são da mesma pessoa ou se há alguma conexão entre elas. O desaparecimento e a morte/cadáver ocorreram em locais diferentes e na 06ª DP e 01ª DP, respectivamente.",
+      "alerta_investigacao": "",
+      "modelo_usado": "qwen2.5-ptbr:7b",
+      "resposta_completa": "{\r\n  \"mesma_pessoa\": false,\r\n  \"confianca_identidade\": \"BAIXA\",\r\n  \"evidencias_conexao\": [],\r\n  \"trechos_relevantes\": [],\r\n  \"correlacao_valida\": false,\r\n  \"confianca_correlacao\": 0,\r\n  \"justificativa\": \"Os registros fornecidos não têm informações suficientes para determinar se as duas ocorrências são da mesma pessoa ou se há alguma conexão entre elas. O desaparecimento e a morte/cadáver ocorreram em locais diferentes e na 06ª DP e 01ª DP, respectivamente.\",\r\n  \"alerta_investigacao\": \"\"\r\n}"
+    },
+    "validacao_qwen3": {
+      "mesma_pessoa": false,
+      "confianca_identidade": "BAIXA",
+      "evidencias_conexao": [],
+      "trechos_relevantes": [],
+      "correlacao_valida": false,
+      "confianca_correlacao": 20,
+      "justificativa": "Não há informações explícitas que confirmem a identidade da vítima do cadáver como Ana Clélia Motta. O nome da vítima desaparecida está registrado no BO de desaparecimento, mas o BO de morte apenas menciona 'CADAVER' sem identificação. O intervalo temporal (2 dias) é curto, mas a ausência de dados sobre identificação, localização do cadáver ou conexões entre os registros (como notificação de desaparecimento ao local da morte) reduz significativamente a confiança na correlação.",
+      "alerta_investigacao": [
+        "Verificar se o cadáver foi identificado como Ana Clélia Motta (exigindo análise de DNA, impressões digitais ou reconhecimento visual).",
+        "Confirmar se houve comunicação entre a 06ª DP (desaparecimento) e a 01ª DP (morte) sobre o possível vínculo entre os casos.",
+        "Investigar se há registros de buscas ou investigações que conectem os locais (RA 30_Vicente Pires e RA 01_Brasília) ou a vítima desaparecida ao cadáver."
+      ],
+      "modelo_usado": "qwen3:14b",
+      "resposta_completa": "{\n  \"mesma_pessoa\": false,\n  \"confianca_identidade\": \"BAIXA\",\n  \"evidencias_conexao\": [],\n  \"trechos_relevantes\": [],\n  \"correlacao_valida\": false,\n  \"confianca_correlacao\": 20,\n  \"justificativa\": \"Não há informações explícitas que confirmem a identidade da vítima do cadáver como Ana Clélia Motta. O nome da vítima desaparecida está registrado no BO de desaparecimento, mas o BO de morte apenas menciona 'CADAVER' sem identificação. O intervalo temporal (2 dias) é curto, mas a ausência de dados sobre identificação, localização do cadáver ou conexões entre os registros (como notificação de desaparecimento ao local da morte) reduz significativamente a confiança na correlação.\",\n  \"alerta_investigacao\": [\n    \"Verificar se o cadáver foi identificado como Ana Clélia Motta (exigindo análise de DNA, impressões digitais ou reconhecimento visual).\",\n    \"Confirmar se houve comunicação entre a 06ª DP (desaparecimento) e a 01ª DP (morte) sobre o possível vínculo entre os casos.\",\n    \"Investigar se há registros de buscas ou investigações que conectem os locais (RA 30_Vicente Pires e RA 01_Brasília) ou a vítima desaparecida ao cadáver.\"\n  ]\n}"
+    },
+    "timestamp_validacao": "2025-11-23T10:00:23.862825",
+    "consenso": {
+      "ambos_confirmam": false,
+      "confianca_media": 10.0,
+      "acordo": "NÃO"
+    }
+  }
+]
