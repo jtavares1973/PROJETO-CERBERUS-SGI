@@ -196,7 +196,7 @@ caso['numero_rg']  # ✅ Nome correto na correlação
 ### Passo 1: ETL Inicial
 ```bash
 cd correlation-project
-python etl/pipeline.py
+python3 etl/pipeline.py
 ```
 **Output**: `output/dataset_unificado.xlsx` (21,455 registros)
 
@@ -216,7 +216,7 @@ python etl/pipeline.py
 
 ### Passo 4: Validar com IA
 ```bash
-python scripts/validar_com_ia.py
+python3 scripts/validar_com_ia.py
 ```
 **Output**: 
 - `output/validacao_progresso.xlsx` (progresso contínuo)

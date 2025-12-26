@@ -20,6 +20,7 @@ for s in scripts:
 docs = [
     'docs/COMO_USAR.md',
     'docs/ARQUITETURA.md',
+    'ROADMAP_CLEANUP.md',
     'LEIA-ME-PRIMEIRO.txt',
     'ESTRUTURA_FINAL.md',
     'README.md'
@@ -43,8 +44,21 @@ print("\n4. DADOS:")
 if Path('output/correlacoes_unicas_deduplicadas.xlsx').exists():
     try:
         import pandas as pd
-        df = pd.read_excel('output/correlacoes_unicas_deduplicadas.xlsx', sheet_name='FORTES - Unicas')
-        print(f"   [OK] {len(df)} casos FORTES prontos para validacao")
+        caminho = 'output/correlacoes_unicas_deduplicadas.xlsx'
+        # Algumas versões do arquivo usam acento no nome da aba.
+        abas_tentativas = ['FORTES - Únicas', 'FORTES - Unicas']
+        df = None
+        aba_usada = None
+        for aba in abas_tentativas:
+            try:
+                df = pd.read_excel(caminho, sheet_name=aba)
+                aba_usada = aba
+                break
+            except Exception:
+                continue
+        if df is None:
+            raise RuntimeError(f"Nao foi possivel ler as abas: {abas_tentativas}")
+        print(f"   [OK] {len(df)} casos FORTES prontos para validacao (aba: {aba_usada})")
     except Exception as e:
         print(f"   [AVISO] Arquivo existe mas erro ao ler: {e}")
 else:
@@ -63,5 +77,5 @@ print("\nPROXIMO PASSO:")
 print("  Windows: Duplo clique em iniciar.bat")
 print("  Linux:   ./iniciar.sh")
 print("\nOu manualmente:")
-print("  python scripts/validar_com_ia.py")
+print("  python3 scripts/validar_com_ia.py")
 print("")

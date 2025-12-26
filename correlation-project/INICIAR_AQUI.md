@@ -33,13 +33,13 @@ chmod +x iniciar.sh
 
 ```bash
 # Validação com IA (caminho oficial)
-python scripts/validar_com_ia.py
+python3 scripts/validar_com_ia.py
 
 # Alternativa: validação com autoajuste por hardware (opcional)
-python scripts/validar_com_deteccao_auto.py
+python3 scripts/validar_com_deteccao_auto.py
 
 # Ou monitor de progresso
-python scripts/monitor_progresso.py
+python3 scripts/monitor_progresso.py
 ```
 
 > **Nota:** `archive/old_scripts/` contém scripts históricos/legado. Eles foram mantidos por referência, mas o caminho recomendado está migrando para `scripts/` (veja `ROADMAP_CLEANUP.md`).

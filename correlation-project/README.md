@@ -40,10 +40,10 @@ ollama list
 
 ```bash
 # Terminal 1: Rodar validação
-python scripts/validar_com_ia.py
+python3 scripts/validar_com_ia.py
 
 # Terminal 2: Monitorar progresso (opcional)
-python scripts/monitor_progresso.py
+python3 scripts/monitor_progresso.py
 ```
 
 ### 3. Ver Resultados
@@ -74,7 +74,7 @@ Ver: `docs/ARQUITETURA.md` e `docs/COMO_USAR.md`
 
 **Solução**: Script salva progresso automaticamente. Apenas execute novamente:
 ```bash
-python scripts/validar_com_ia.py
+python3 scripts/validar_com_ia.py
 ```
 
 **Problema**: Modelo muito lento
@@ -85,5 +85,5 @@ python scripts/validar_com_ia.py
 
 Para reorganizar arquivos temporários:
 ```bash
-python scripts/organizar_projeto.py
+python3 scripts/organizar_projeto.py
 ```
