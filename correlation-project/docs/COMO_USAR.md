@@ -63,6 +63,9 @@ output/correlacoes_unicas_deduplicadas.xlsx
 
 Com a aba: **"FORTES - Únicas"** (86 casos)
 
+> **Nota (fluxo oficial atual):** este projeto está com o caminho oficial focado em **validar com IA** uma planilha de correlações já preparada.
+> As etapas de “gerar correlações” e “deduplicar” existem como histórico em `archive/old_scripts/` e serão promovidas/reorganizadas no caminho oficial depois (veja `ROADMAP_CLEANUP.md`).
+
 ---
 
 ### **2. Executar Validação**
@@ -72,6 +75,13 @@ Com a aba: **"FORTES - Únicas"** (86 casos)
 ```bash
 cd correlation-project
 python scripts/validar_com_ia.py
+```
+
+Alternativa (autoajuste por hardware, se você usa perfis diferentes de máquina):
+
+```bash
+cd correlation-project
+python scripts/validar_com_deteccao_auto.py
 ```
 
 **Saída esperada**:
@@ -301,6 +311,13 @@ rm output/validacao_progresso.xlsx
 # Executar novamente
 python scripts/validar_com_ia.py
 ```
+
+---
+
+## 🧾 Sobre scripts “legado” (histórico)
+Existe material em `archive/old_scripts/` (geração de correlações, deduplicação, validações antigas, etc.).
+Ele foi mantido como **histórico** e referência, mas a documentação e o caminho recomendado estão migrando para um conjunto menor de entrypoints em `scripts/`.
+Para o plano de limpeza, veja: `ROADMAP_CLEANUP.md`.
 
 ---
 
