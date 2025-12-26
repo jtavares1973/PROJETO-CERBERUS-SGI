@@ -23,9 +23,9 @@ correlacoes_completas_com_identificacao.xlsx (450 correlações)
     ↓
 correlacoes_unicas_deduplicadas.xlsx (161 pessoas únicas)
     ↓
-[4. VALIDAÇÃO IA] - Valida identidade com Ollama qwen3:14b
+[4. VALIDAÇÃO IA] - Valida identidade com Ollama (ex.: qwen2.5-ptbr:7b)
     ↓
-validacao_unica_progresso.xlsx (86 casos FORTES validados)
+validacao_progresso.xlsx (86 casos FORTES validados)
     ↓
 [5. RELATÓRIO FINAL] - Excel formatado para analistas
     ↓
@@ -33,6 +33,18 @@ RELATORIO_VALIDACAO_FINAL.xlsx
 ```
 
 ---
+
+## ✅ Estado atual do código (oficial vs legado)
+
+Para reduzir redundância e deixar o projeto mais “clean”, estamos formalizando 1 caminho oficial.
+
+- **Oficial (ativo)**:
+  - ETL/enriquecimento/detecção: `etl/` e `utils/`
+  - Validação IA e monitoramento: `scripts/validar_com_ia.py`, `scripts/validar_com_deteccao_auto.py`, `scripts/monitor_progresso.py`
+- **Legado (histórico)**:
+  - Variações antigas de geração de correlações, deduplicação e validação: `archive/old_scripts/`
+
+Plano: ver `ROADMAP_CLEANUP.md`.
 
 ## 📊 ESTRUTURA DE DADOS
 
@@ -156,25 +168,17 @@ caso['numero_rg']  # ✅ Nome correto na correlação
    - Detecta transtornos psiquiátricos
    - Gera `dataset_unificado.xlsx`
 
-2. **`gerar_correlacoes_completas.py`** - Gera correlações temporais
-   - Lê `dataset_unificado.xlsx`
-   - Agrupa por `chave_pessoa`
-   - Identifica sequências DESAPARECIMENTO → MORTE
-   - Calcula intervalos e força da correlação
-   - Gera `correlacoes_completas_com_identificacao.xlsx` (450 registros)
+2. **(Legado / histórico)** Geração de correlações e deduplicação
+   - Implementações antigas estão em `archive/old_scripts/` (serão promovidas/reorganizadas no caminho oficial).
 
-3. **`remover_duplicatas.py`** - Remove registros duplicados
-   - Lê correlações completas
-   - Remove duplicatas por `chave_pessoa`
-   - Mantém correlação com menor intervalo
-   - Gera `correlacoes_unicas_deduplicadas.xlsx` (161 registros únicos)
-
-4. **`validar_com_retomada.py`** - Valida com IA (Ollama)
-   - Lê correlações deduplicadas
-   - Valida identidade caso a caso com qwen3:14b
+3. **`scripts/validar_com_ia.py`** - Valida com IA (Ollama)
+   - Lê correlações deduplicadas (`output/correlacoes_unicas_deduplicadas.xlsx`)
+   - Valida identidade caso a caso com modelo local
    - Salva progresso após cada caso
-   - Permite retomada se interrompido
-   - Gera `validacao_unica_progresso.xlsx`
+   - Gera relatório final em Excel
+
+4. **`scripts/validar_com_deteccao_auto.py`** - Validação com autoajuste por hardware (opcional)
+   - Usa `config_validacao.json` (se existir) e/ou perfil automático (se disponível)
 
 ### Utilitários
 - **`utils/chaves.py`** - Geração de chaves de correlação
@@ -192,28 +196,30 @@ caso['numero_rg']  # ✅ Nome correto na correlação
 ### Passo 1: ETL Inicial
 ```bash
 cd correlation-project
-python etl/pipeline.py
+python3 etl/pipeline.py
 ```
 **Output**: `output/dataset_unificado.xlsx` (21,455 registros)
 
 ### Passo 2: Gerar Correlações
 ```bash
-python gerar_correlacoes_completas.py
+## Etapa em migração para o caminho oficial.
+## Implementações históricas estão em: archive/old_scripts/
 ```
-**Output**: `output/correlacoes_completas_com_identificacao.xlsx` (450 correlações)
+**Output esperado**: `output/correlacoes_completas_com_identificacao.xlsx`
 
 ### Passo 3: Remover Duplicatas
 ```bash
-python remover_duplicatas.py
+## Etapa em migração para o caminho oficial.
+## Implementações históricas estão em: archive/old_scripts/
 ```
-**Output**: `output/correlacoes_unicas_deduplicadas.xlsx` (161 únicas)
+**Output esperado**: `output/correlacoes_unicas_deduplicadas.xlsx`
 
 ### Passo 4: Validar com IA
 ```bash
-python validar_com_retomada.py
+python3 scripts/validar_com_ia.py
 ```
 **Output**: 
-- `output/validacao_unica_progresso.xlsx` (progresso contínuo)
+- `output/validacao_progresso.xlsx` (progresso contínuo)
 - `output/RELATORIO_VALIDACAO_FINAL.xlsx` (relatório final)
 
 ---
@@ -240,7 +246,7 @@ python validar_com_retomada.py
 ## ⚙️ CONFIGURAÇÃO DO AMBIENTE
 
 ### Modelo IA
-- **Modelo**: Ollama qwen3:14b (9.3GB)
+- **Modelo**: Ollama qwen2.5-ptbr:7b (padrão do caminho oficial)
 - **Temperatura**: 0.1 (determinístico)
 - **Formato**: JSON estruturado
 - **Hardware**: GPU 16GB VRAM (RTX 5070 Ti)
